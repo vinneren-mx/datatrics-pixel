@@ -1,10 +1,10 @@
 {
-  "name": "vtex.facebook-pixel",
-  "version": "2.1.0",
+  "name": "vtex.datatrics-pixel",
+  "version": "0.1.0",
   "dependencies": {
     "ramda": "^0.25.0"
   },
-  "scripts": {
+    "scripts": {
     "lint": "tsc --noEmit --pretty && tslint -c tslint.json './**/*.ts'"
   },
   "devDependencies": {

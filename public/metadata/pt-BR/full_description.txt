@@ -1,14 +1,13 @@
 ## Sobre 
 
-Facebook Pixel é um app para rastreamento das atividades dos visitantes de seu ecommerce. Ferramenta usada para avaliar a eficiência de seus anúncios.
+Datatrics Pixel é um app para rastreamento das atividades dos visitantes de seu ecommerce. Ferramenta usada para avaliar a eficiência de seus anúncios.
 Para ver todos os lançamentos, [acesse o changelog](https://github.com/vtex-apps/facebook-pixel/blob/master/CHANGELOG.md)
 
 ## Funcionalidades
 
-- Integração da sua loja VTEX ao Facebook Analytics.
+- Integração da sua loja VTEX ao Datatrics Pixel.
 - Uma nova forma de analisar seu público.
 
 ## Como configurar 
 
-Única configuração necessária será adicionar o Facebook App ID na sua conta. No Admin, acesse **Apps -> Facebook Pixel** e adicione o ID no campo disponível.
-Você pode ler mais informações sobre a app [no README do Github.](https://github.com/vtex-apps/facebook-pixel/blob/master/README.md)
+Única configuração necessária será adicionar o Datatrics project ID na sua conta.

@@ -5,52 +5,74 @@ import { canUseDOM } from 'vtex.render-runtime'
 function handleMessages(e: PixelMessage) {
   switch (e.data.eventName) {
     case 'vtex:pageView': {
-      fbq('track', 'PageView')
+      dpaq(["trackPageView"])
+      dpaq(["enableLinkTracking"])
       break
     }
     case 'vtex:orderPlaced': {
-      const { currency, transactionTotal, transactionProducts } = e.data
-
-      fbq('track', 'Purchase', {
-        value: transactionTotal,
-        currency,
-        content_type: 'product',
-        contents: transactionProducts.map(
-          (product: ProductOrder) => ({
-            id: product.sku,
-            quantity: product.quantity,
-            item_price: product.sellingPrice
-          })
-        )
-      });
+      const { currency, 
+              transactionTotal, 
+              orderGroup, 
+              transactionShipping, 
+              transactionTax,
+              //transactionDiscounts,
+              transactionProducts } = e.data
+      transactionProducts.map((product: ProductOrder,i) => ([
+          dpaq([
+            'addEcommerceItem', 
+            product.sku,
+            product.category,
+            product.quantity,
+            product.sellingPrice
+          ])
+        ])
+      )
+      dpaq([
+        'trackEcommerceOrder', 
+        orderGroup,
+        transactionTotal,
+        (transactionTotal - transactionShipping),
+        transactionTax,
+        transactionShipping,
+        //transactionDiscounts
+      ]);
+      dpaq(['trackPageView']);
       break
     }
     case 'vtex:productView': {
-      const { product: { productName, items }, currency } = e.data
-
-      fbq('track', 'ViewContent', {
-        content_ids: items.map(({ itemId }) => itemId),
-        content_name: productName,
-        content_type: 'product',
-        currency,
-        value: getProductPrice(e.data.product),
-      })
+      const { product:{productId, productName, categories, sku, items}, currency } = e.data
+      dpaq([
+        'setEcommerceView', 
+        sku.itemID, 
+        sku.name, 
+        categories.slice(-1)[0], 
+        sku.seller?.commertialOffer.Price
+      ])
+      dpaq(['trackPageView'])
+      break
+    }
+    case 'vtex:categoryView':{
+      const { products } = e.data
+      dpaq(['setEcommerceView',false,false,products[0].categoryTree.slice(-1)[0]]);
+      dpaq(['trackPageView'])
+      break
+    }
+    case 'vtex:departmentView':{
+      const { products } = e.data
+      dpaq(['setEcommerceView',false,false,products[0].categoryTree.slice(-1)[0]]);
+      dpaq(['trackPageView'])
       break
     }
     case 'vtex:addToCart': {
       const { items, currency } = e.data
-
-      fbq('track', 'AddToCart', {
-        value: items.reduce((acc, item) => acc + item.price, 0),
-        content_ids: items.map(sku => sku.skuId),
-        contents: items.map(sku => ({
-          id: sku.skuId,
-          quantity: sku.quantity,
-          item_price: sku.price,
-        })),
-        content_type: 'product',
-        currency: currency,
-      })
+      dpaq(['addEcommerceItem',
+        items.map(sku => sku.skuId),
+        items.map(sku => sku.name),
+        items.map(sku => sku.name),
+        items.reduce((acc, item) => acc + item.price, 0),
+        items.map(sku => sku.quantity)
+      ])
+      dpaq(['trackPageView'])
       break
     }
     default:

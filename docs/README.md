@@ -1,12 +1,11 @@
-# facebook-pixel
+# datatrics-pixel
 
-VTEX Facebook Pixel first-party app
+VTEX Datatrics Pixel first-party app
 
 ## How to install
 
 Open the VTEX App Store and install this app on your store, or run the following command on VTEX toolbelt:
 
-> vtex install vtex.facebook-pixel@2.x
+> vtex install vtex.datatrics-pixel@0.x
 
-Now, open the app settings on your admin - https://your-store-name.myvtex.com/admin/apps - click on facebook pixel app, and fill in the Facebook Pixel id.
-
+Now, open the app settings on your admin - https://your-store-name.myvtex.com/admin/apps - click on Datatrics pixel app, and fill in the PRojectID.

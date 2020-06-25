@@ -78,6 +78,7 @@ export interface Order {
   transactionAffiliation: string
   transactionTotal: number,
   transactionShipping: number,
+  transactionDiscounts: number,
   transactionTax: number,
   transactionCurrency: string,
   transactionPaymentType: PaymentType[],

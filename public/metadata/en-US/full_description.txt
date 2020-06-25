@@ -1,14 +1,12 @@
 ## About
 
-Facebook Pixel is an app for tracking the activities of visitors to your ecommerce. Tool used to evaluate the effectiveness of your ads.
-To see all the releases, [access the changelog](https://github.com/vtex-apps/facebook-pixel/blob/master/CHANGELOG.md)
+Datatrics personalizes your customer journeys. Through Datatrics you can easily connect your existing data sources such as website, CRM-system, email marketing tool, advertising tools and social media channels. By combining existing data sources with relevant external data sources like weather, traffic and demographic data, per unique customer a 360° customer profile is made, which will be enriched with their behaviour. These profiles are used to personalize websites, email marketing and advertising, which increases conversion rate.
+[Learn more](https://help.datatrics.com/en/articles/2474350-what-is-datatrics)
 
 ## Features 
 
-- Integration of your VTEX store with Facebook Analytics.
-- A new way to analyze your audience.
+- Integration of your VTEX store with Datatrics.
 
 ## How to configure
 
-The required configuration will be to add the Facebook App ID into your account. In the Admin, go to **Apps -> Facebook Pixel** and add the ID in the available field.
-Learn more about the app [on the Github README.](https://github.com/vtex-apps/facebook-pixel/blob/master/README.md)
+You only need te Project Id to install Datatrics on your store

@@ -1,17 +1,17 @@
 {
-  "vendor": "vtex",
-  "name": "facebook-pixel",
-  "version": "2.1.0",
-  "title": "Facebook Pixel",
-  "description": "Facebook Pixel",
-  "defaultLocale": "pt-BR",
+  "vendor": "Datatrics",
+  "name": "datatrics-pixel",
+  "version": "1.0.0",
+  "title": "Datatrics Pixel",
+  "description": "Datatrics Pixel",
+  "defaultLocale": "es-MX",
   "builders": {
     "react": "3.x",
     "store": "0.x",
     "pixel": "0.x",
     "docs": "0.x"
   },
-  "mustUpdateAt": "2019-10-01",
+  "mustUpdateAt": "2020-06-25",
   "billingOptions": {
     "termsURL": "",
     "support": {
@@ -23,12 +23,12 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "Facebook Pixel",
+    "title": "Datatrics Pixel",
     "type": "object",
     "properties": {
-      "pixelId": {
-        "title": "Facebook Pixel ID",
-        "description": "Enter your facebook app ID",
+      "projectID": {
+        "title": "Datatrics Project ID",
+        "description": "Enter your Project ID",
         "type": "string"
       }
     }

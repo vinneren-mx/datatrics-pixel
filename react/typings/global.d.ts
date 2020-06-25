@@ -1,4 +1,7 @@
-declare function fbq(s: string, t: string, o?: any): void
+function dpaq(n: array, o?: any){
+  _paq = _paq || [];
+  _paq.push(n)
+}
 
 interface Event extends Event {
   data: any
@@ -6,6 +9,6 @@ interface Event extends Event {
 
 interface Window extends Window {
   __SETTINGS__: {
-    pixelId: string
+    projectID: string
   }
 }

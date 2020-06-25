@@ -1,4 +1,4 @@
-<script>
+<!--script>
   (function() {
     var pixelId = "{{settings.pixelId}}";
     if (!pixelId) {
@@ -16,4 +16,17 @@
       fbq('init', pixelId, {}, {"agent": platform});
     }
   })()
+</script-->
+<script>
+	var _paq = _paq || [];
+	//_paq.push(["trackPageView"]);
+	//_paq.push(["enableLinkTracking"]);
+	(function() {
+		var u=(("https:" == document.location.protocol) ? "https" : "http") + "://tr.datatrics.com/";
+		_paq.push(["setTrackerUrl", u]);
+		_paq.push(["setProjectId", "{{settings.projectID}}"]);
+		var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+		g.type="text/javascript";
+		g.defer=true; g.async=true; g.src=u; s.parentNode.insertBefore(g,s);
+	})();
 </script>
