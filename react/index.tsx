@@ -2,6 +2,11 @@ import { getProductPrice } from './utils/formatHelper'
 import { ProductOrder, PixelMessage } from './typings/events'
 import { canUseDOM } from 'vtex.render-runtime'
 
+function dpaq(n: Array<any>): void {
+  console.log('datatrics_data', n);
+  ((window as any)._paq || []).push(n)
+}
+
 function handleMessages(e: PixelMessage) {
   switch (e.data.eventName) {
     case 'vtex:pageView': {
@@ -15,7 +20,6 @@ function handleMessages(e: PixelMessage) {
               orderGroup, 
               transactionShipping, 
               transactionTax,
-              //transactionDiscounts,
               transactionProducts } = e.data
       transactionProducts.map((product: ProductOrder,i) => ([
           dpaq([
@@ -33,20 +37,20 @@ function handleMessages(e: PixelMessage) {
         transactionTotal,
         (transactionTotal - transactionShipping),
         transactionTax,
-        transactionShipping,
-        //transactionDiscounts
+        transactionShipping
       ]);
       dpaq(['trackPageView']);
+      console.log('orderplaced')
       break
     }
     case 'vtex:productView': {
-      const { product:{productId, productName, categories, sku, items}, currency } = e.data
+      const { product:{productId, productName, categories, items}, currency } = e.data
       dpaq([
         'setEcommerceView', 
-        sku.itemID, 
-        sku.name, 
+        items[0].itemId, 
+        items[0].name, 
         categories.slice(-1)[0], 
-        sku.seller?.commertialOffer.Price
+        items[0].seller?.commertialOffer.Price
       ])
       dpaq(['trackPageView'])
       break
@@ -59,18 +63,18 @@ function handleMessages(e: PixelMessage) {
     }
     case 'vtex:departmentView':{
       const { products } = e.data
-      dpaq(['setEcommerceView',false,false,products[0].categoryTree.slice(-1)[0]]);
+      dpaq(['setEcommerceView',false,false,products[0].categories.slice(-1)[0]]);
       dpaq(['trackPageView'])
       break
     }
     case 'vtex:addToCart': {
       const { items, currency } = e.data
       dpaq(['addEcommerceItem',
-        items.map(sku => sku.skuId),
-        items.map(sku => sku.name),
-        items.map(sku => sku.name),
-        items.reduce((acc, item) => acc + item.price, 0),
-        items.map(sku => sku.quantity)
+        items.map(sku => sku.skuId).slice(-1)[0],
+        items.map(sku => sku.name).slice(-1)[0],
+        items.map(sku => sku.name).slice(-1)[0],
+        items.reduce((acc, item) => acc + item.price, 0) /100,
+        items.map(sku => sku.quantity).slice(-1)[0]
       ])
       dpaq(['trackPageView'])
       break
