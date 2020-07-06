@@ -7,3 +7,7 @@ interface Window extends Window {
     projectID: string
   }
 }
+
+interface Window extends Window {
+  _paq: any[]
+}

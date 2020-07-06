@@ -1,17 +1,17 @@
 import { getProductPrice } from './utils/formatHelper'
-import { ProductOrder, PixelMessage } from './typings/events'
+import { ProductOrder, PixelMessage, Order } from './typings/events'
 import { canUseDOM } from 'vtex.render-runtime'
+import push from './modules/push'
 
-function dpaq(n: Array<any>): void {
-  console.log('datatrics_data', n);
-  ((window as any)._paq || []).push(n)
-}
+export default function() {
+  return null
+} // no-op for extension point
 
 function handleMessages(e: PixelMessage) {
   switch (e.data.eventName) {
     case 'vtex:pageView': {
-      dpaq(["trackPageView"])
-      dpaq(["enableLinkTracking"])
+      push(["trackPageView"])
+      push(["enableLinkTracking"])
       break
     }
     case 'vtex:orderPlaced': {
@@ -22,7 +22,7 @@ function handleMessages(e: PixelMessage) {
               transactionTax,
               transactionProducts } = e.data
       transactionProducts.map((product: ProductOrder,i) => ([
-          dpaq([
+          push([
             'addEcommerceItem', 
             product.sku,
             product.category,
@@ -31,7 +31,7 @@ function handleMessages(e: PixelMessage) {
           ])
         ])
       )
-      dpaq([
+      push([
         'trackEcommerceOrder', 
         orderGroup,
         transactionTotal,
@@ -39,44 +39,59 @@ function handleMessages(e: PixelMessage) {
         transactionTax,
         transactionShipping
       ]);
-      dpaq(['trackPageView']);
-      console.log('orderplaced')
+      push(['trackPageView']);
       break
     }
     case 'vtex:productView': {
       const { product:{productId, productName, categories, items}, currency } = e.data
-      dpaq([
+      push([
         'setEcommerceView', 
-        items[0].itemId, 
-        items[0].name, 
-        categories.slice(-1)[0], 
-        items[0].seller?.commertialOffer.Price
+        productId, 
+        productName, 
+        categories.reverse(),
+        items[0].sellers[0].commertialOffer.Price
       ])
-      dpaq(['trackPageView'])
+      push(['trackPageView'])
       break
     }
     case 'vtex:categoryView':{
       const { products } = e.data
-      dpaq(['setEcommerceView',false,false,products[0].categoryTree.slice(-1)[0]]);
-      dpaq(['trackPageView'])
+      push(['setEcommerceView',false,false,products[0].categories.reverse()]);
+      push(['trackPageView'])
       break
     }
     case 'vtex:departmentView':{
       const { products } = e.data
-      dpaq(['setEcommerceView',false,false,products[0].categories.slice(-1)[0]]);
-      dpaq(['trackPageView'])
+      push(['setEcommerceView',false,false,products[0].categories]);
+      push(['trackPageView'])
       break
     }
     case 'vtex:addToCart': {
       const { items, currency } = e.data
-      dpaq(['addEcommerceItem',
+      console.log('datatrics', e)
+      push(['addEcommerceItem',
         items.map(sku => sku.skuId).slice(-1)[0],
-        items.map(sku => sku.name).slice(-1)[0],
-        items.map(sku => sku.name).slice(-1)[0],
+        items.map(sku => sku.variant).slice(-1)[0],
+        items.map(sku => sku.category).slice(-1)[0],
         items.reduce((acc, item) => acc + item.price, 0) /100,
         items.map(sku => sku.quantity).slice(-1)[0]
       ])
-      dpaq(['trackPageView'])
+      push(['trackEcommerceCartUpdate', '']);
+      push(['trackPageView'])
+      break
+    }
+    case 'vtex:removeFromCart': {
+      const { items, currency } = e.data
+      console.log(items)
+      push(['addEcommerceItem',
+        items.map(sku => sku.skuId).slice(-1)[0],
+        items.map(sku => sku.variant).slice(-1)[0],
+        items.map(sku => sku.category).slice(-1)[0],
+        items.reduce((acc, item) => acc + item.price, 0) /100,
+        items.map(sku => sku.quantity).slice(-1)[0]
+      ])
+      push(['trackEcommerceCartUpdate', '']);
+      push(['trackPageView'])
       break
     }
     default:
@@ -87,3 +102,8 @@ function handleMessages(e: PixelMessage) {
 if (canUseDOM) {
   window.addEventListener('message', handleMessages)
 }
+function getPurchaseObjectData(order: Order) {
+  return order.transactionTotal
+  
+}
+
