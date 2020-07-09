@@ -8,7 +8,10 @@ export default function() {
 } // no-op for extension point
 
 function handleMessages(e: PixelMessage) {
+  console.log(e.data)
+  let orderform =JSON.parse(window.localStorage.orderform);
   switch (e.data.eventName) {
+    
     case 'vtex:pageView': {
       push(["trackPageView"])
       push(["enableLinkTracking"])
@@ -48,7 +51,7 @@ function handleMessages(e: PixelMessage) {
         'setEcommerceView', 
         productId, 
         productName, 
-        categories.reverse(),
+        categories[0].split("/").filter(Boolean),
         items[0].sellers[0].commertialOffer.Price
       ])
       push(['trackPageView'])
@@ -56,41 +59,39 @@ function handleMessages(e: PixelMessage) {
     }
     case 'vtex:categoryView':{
       const { products } = e.data
-      push(['setEcommerceView',false,false,products[0].categories.reverse()]);
+      push(['setEcommerceView',false,false,products[0].categories.map(function(a){return a.replace(/\//g, "") }).filter(Boolean)]);
       push(['trackPageView'])
       break
     }
     case 'vtex:departmentView':{
       const { products } = e.data
-      push(['setEcommerceView',false,false,products[0].categories]);
+      push(['setEcommerceView',false,false,products[0].categories.map(function(a){return a.replace(/\//g, "") }).filter(Boolean)]);
       push(['trackPageView'])
       break
     }
     case 'vtex:addToCart': {
-      const { items, currency } = e.data
-      console.log('datatrics', e)
+      const { items } = e.data, {value} = orderform
       push(['addEcommerceItem',
         items.map(sku => sku.skuId).slice(-1)[0],
         items.map(sku => sku.variant).slice(-1)[0],
-        items.map(sku => sku.category).slice(-1)[0],
+        items.map(sku => sku.category.split("/")).slice(-1)[0],
         items.reduce((acc, item) => acc + item.price, 0) /100,
         items.map(sku => sku.quantity).slice(-1)[0]
       ])
-      push(['trackEcommerceCartUpdate', '']);
+      push(['trackEcommerceCartUpdate', value/100]);
       push(['trackPageView'])
       break
     }
     case 'vtex:removeFromCart': {
-      const { items, currency } = e.data
-      console.log(items)
+      const { items } = e.data, {value} = orderform
       push(['addEcommerceItem',
         items.map(sku => sku.skuId).slice(-1)[0],
         items.map(sku => sku.variant).slice(-1)[0],
-        items.map(sku => sku.category).slice(-1)[0],
+        items.map(sku => sku.category.split("/")).slice(-1)[0],
         items.reduce((acc, item) => acc + item.price, 0) /100,
         items.map(sku => sku.quantity).slice(-1)[0]
       ])
-      push(['trackEcommerceCartUpdate', '']);
+      push(['trackEcommerceCartUpdate', value/100]);
       push(['trackPageView'])
       break
     }

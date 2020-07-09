@@ -1,5 +1,5 @@
 export interface PixelMessage extends MessageEvent {
-  data: ProductViewData | ProductClickData | OrderPlacedData | PageViewData | ProductImpressionData | AddToCartData | RemoveToCartData | CategoryViewData | DepartmentViewData
+  data: ProductViewData | ProductClickData | OrderPlacedData | PageViewData | ProductImpressionData | AddToCartData | RemoveToCartData | CategoryViewData | DepartmentViewData | CartChangedData
 }
 
 export interface EventData {
@@ -44,7 +44,8 @@ export interface RemoveToCartData extends Order, EventData {
 export interface CartChangedData extends Order, EventData {
   event: 'cartChanged'
   eventName: 'vtex:cartChanged'
-  items: AddToCartProduct[]
+  items: AddToCartProduct[],
+  order: Order
 }
 
 export interface OrderPlacedData extends Order, EventData {
