@@ -31,9 +31,9 @@
         "description": "Enter your Project ID",
         "type": "string"
       },
-      "identificator":{
-        "title": "Store identificator product/SKU",
-        "description": "Select your product identificator from your store",
+      "identificator": {
+        "title": "Store identificator SKU",
+        "description": "Put your product identificator from your store (skuId, referenceId)",
         "type": "string"
       }
     }

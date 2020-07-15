@@ -6,7 +6,7 @@ interface Event extends Event {
 interface Window extends Window {
   __SETTINGS__: {
     projectID: string
-    identificator: string
   }
   _paq: any[]
+  identificator: string
 }

@@ -8,8 +8,8 @@ export default function() {
 } // no-op for extension point
 
 function handleMessages(e: PixelMessage) {
-  console.log(e.data)
   let orderform =JSON.parse(window.localStorage.orderform);
+  let identificator = window.identificator as string;
   switch (e.data.eventName) {
     
     case 'vtex:pageView': {
@@ -71,8 +71,9 @@ function handleMessages(e: PixelMessage) {
     }
     case 'vtex:addToCart': {
       const { items } = e.data, {value} = orderform
+      console.log("items",items)
       push(['addEcommerceItem',
-        items.map(sku => sku.skuId).slice(-1)[0],
+        items.map(sku => sku[identificator]).slice(-1)[0],
         items.map(sku => sku.variant).slice(-1)[0],
         items.map(sku => sku.category.split("/")).slice(-1)[0],
         items.reduce((acc, item) => acc + item.price, 0) /100,
@@ -85,7 +86,7 @@ function handleMessages(e: PixelMessage) {
     case 'vtex:removeFromCart': {
       const { items } = e.data, {value} = orderform
       push(['addEcommerceItem',
-        items.map(sku => sku.skuId).slice(-1)[0],
+      items.map(sku => sku[identificator]).slice(-1)[0],
         items.map(sku => sku.variant).slice(-1)[0],
         items.map(sku => sku.category.split("/")).slice(-1)[0],
         items.reduce((acc, item) => acc + item.price, 0) /100,
