@@ -43,8 +43,7 @@ export interface RemoveToCartData extends Order, EventData {
 export interface CartChangedData extends Order, EventData {
   event: 'cartChanged'
   eventName: 'vtex:cartChanged'
-  items: AddToCartProduct[],
-  order: Order
+  items: AddToCartProduct[]
 }
 
 export interface OrderPlacedData extends Order, EventData {
@@ -168,8 +167,8 @@ interface AddToCartProduct {
   brand: string
   name: string
   price: number
+  ean: string
   quantity: number
-  ean: any
   referenceId: any[]
   skuId: string
   variant: string

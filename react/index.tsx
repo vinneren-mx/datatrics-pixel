@@ -24,7 +24,7 @@ function handleMessages(e: PixelMessage) {
               transactionShipping, 
               transactionTax,
               transactionProducts } = e.data
-      transactionProducts.map((product: ProductOrder,i) => ([
+      transactionProducts.map((product: ProductOrder) => ([
           push([
             'addEcommerceItem', 
             product.sku,
@@ -47,6 +47,7 @@ function handleMessages(e: PixelMessage) {
     }
     case 'vtex:productView': {
       const { product:{productId, productName, categories, items}, currency } = e.data
+      console.log("items",e.data)
       push([
         'setEcommerceView', 
         productId, 
@@ -71,7 +72,7 @@ function handleMessages(e: PixelMessage) {
     }
     case 'vtex:addToCart': {
       const { items } = e.data, {value} = orderform
-      console.log("items",items)
+      console.log("items",e.data)
       push(['addEcommerceItem',
         items.map(sku => sku[identificator]).slice(-1)[0],
         items.map(sku => sku.variant).slice(-1)[0],
@@ -86,7 +87,7 @@ function handleMessages(e: PixelMessage) {
     case 'vtex:removeFromCart': {
       const { items } = e.data, {value} = orderform
       push(['addEcommerceItem',
-      items.map(sku => sku[identificator]).slice(-1)[0],
+        items.map(sku => sku[identificator]).slice(-1)[0],
         items.map(sku => sku.variant).slice(-1)[0],
         items.map(sku => sku.category.split("/")).slice(-1)[0],
         items.reduce((acc, item) => acc + item.price, 0) /100,
