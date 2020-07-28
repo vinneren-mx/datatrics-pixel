@@ -21,7 +21,7 @@ export function getSkuIdentificator(item: Item[], selected: string) {
 
 export function getViewIdentificator(selectedSku: Item, selected: string) {
   let dssku = selectedSku.itemId
-  if (selected == "referenceId") {
+  if (selected === "referenceId") {
     try {
       dssku = selectedSku.referenceId[0].Value != undefined ? selectedSku.referenceId[0].Value : selectedSku.itemId
     } catch {
