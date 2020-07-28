@@ -1,4 +1,4 @@
-import { Product, Item,} from '../typings/events'
+import { Product, Item, } from '../typings/events'
 
 export function getProductPrice(product: Product) {
   let price
@@ -9,7 +9,7 @@ export function getProductPrice(product: Product) {
   }
   return price
 }
-export function getSkuIdentificator(item: Item[], selected : string){
+export function getSkuIdentificator(item: Item[], selected: string) {
   let dataId
   try {
     dataId = item[0][selected] != undefined ? item[0][selected] : item[0].skuId
@@ -19,15 +19,15 @@ export function getSkuIdentificator(item: Item[], selected : string){
   return dataId
 }
 
-export function getViewIdentificator(selectedSku: Item, selected : string){
+export function getViewIdentificator(selectedSku: Item, selected: string) {
   let dssku = selectedSku.itemId
-  if(selected=="referenceId"){
+  if (selected == "referenceId") {
     try {
-      dssku = selectedSku.referenceId[0].Value!= undefined ? selectedSku.referenceId[0].Value : selectedSku.itemId
+      dssku = selectedSku.referenceId[0].Value != undefined ? selectedSku.referenceId[0].Value : selectedSku.itemId
     } catch {
       dssku = selectedSku.itemId
     }
-  }else {
+  } else {
     try {
       dssku = selectedSku[selected] != undefined ? selectedSku[selected] : selectedSku.itemId
     } catch {
