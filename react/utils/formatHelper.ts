@@ -1,4 +1,4 @@
-import { Product, Item, } from '../typings/events'
+import { Product, Item } from '../typings/events'
 
 export function getProductPrice(product: Product) {
   let price
