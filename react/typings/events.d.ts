@@ -28,22 +28,22 @@ export interface DepartmentViewData extends EventData {
   products: Product[]
 }
 
-export interface AddToCartData extends EventData {
+export interface AddToCartData extends  EventData {
   event: 'addToCart'
   eventName: 'vtex:addToCart'
-  items: AddToCartProduct[]
+  items: Item[]
 }
 
 export interface RemoveToCartData extends Order, EventData {
   event: 'removeFromCart'
   eventName: 'vtex:removeFromCart'
-  items: AddToCartProduct[]
+  items: Item[]
 }
 
 export interface CartChangedData extends Order, EventData {
   event: 'cartChanged'
   eventName: 'vtex:cartChanged'
-  items: AddToCartProduct[]
+  items: Item[]
 }
 
 export interface OrderPlacedData extends Order, EventData {
@@ -137,7 +137,7 @@ export interface Product {
   categories: string[]
   productId: string
   productName: string
-  selectedSku?: string // inconsistency
+  selectedSku: Item // inconsistency
   items: Item[]
   sku: Item
   [key: string]: any

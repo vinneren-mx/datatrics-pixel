@@ -33,7 +33,7 @@
       },
       "identificator": {
         "title": "Store identificator SKU",
-        "description": "Put your product identificator from your store (skuId, referenceId)",
+        "description": "Put your product identificator from your store (skuId, referenceId, ean)",
         "type": "string"
       }
     }
