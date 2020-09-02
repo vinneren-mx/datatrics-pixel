@@ -13,9 +13,9 @@
   },
   "mustUpdateAt": "2020-06-25",
   "billingOptions": {
-    "termsURL": "",
+    "termsURL": "https://www.datatrics.com/terms-of-service/",
     "support": {
-      "url": "https://support.vtex.com/hc/requests"
+      "url": "https://help.datatrics.com/"
     },
     "free": true
   },

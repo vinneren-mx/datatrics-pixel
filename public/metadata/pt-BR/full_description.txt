@@ -1,13 +1,25 @@
 ## Sobre 
 
-Datatrics Pixel é um app para rastreamento das atividades dos visitantes de seu ecommerce. Ferramenta usada para avaliar a eficiência de seus anúncios.
-Para ver todos os lançamentos, [acesse o changelog](https://github.com/vtex-apps/facebook-pixel/blob/master/CHANGELOG.md)
+Parte do MailUp Group Datatrics é um Actionable CDP, que permite personalizar toda a jornada do cliente, criando um Data Framework completo para melhorar a conversão do seu site e campanhas de marketing.
+Nossos algoritmos baseados em aprendizado de máquina decidem e otimizam o desempenho, permitindo que você crie 360 públicos para gerar receita de vários pontos de contato e campanhas multicanais.
 
-## Funcionalidades
+## Nossos recursos
 
-- Integração da sua loja VTEX ao Datatrics Pixel.
-- Uma nova forma de analisar seu público.
+ - Recomendação de produto
+ - Personalização na web
+ - Personalização de pesquisa
+ - Jornadas do Cliente
+ - Pop Ups
+ - Sair intenções
+ - Emails acionados
+ - Emails personalizados
+ - Feeds de email
+ - Campanhas de conversação
+ - Geração de público
+ - Sincronização de público com gerentes de campanha
 
 ## Como configurar 
 
-Única configuração necessária será adicionar o Datatrics project ID na sua conta.
+1.- Adicione o seu ID de Projeto no campo "ID do Projeto" fornecido por datatricks
+2.- Selecione o identificador de produto que você usa para sua loja (skuId, referenceId, ean, por padrão o skuid será usado)
+3.- Salve sua configuração
