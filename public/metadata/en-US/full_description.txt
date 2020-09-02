@@ -1,12 +1,25 @@
 ## About
 
-Datatrics personalizes your customer journeys. Through Datatrics you can easily connect your existing data sources such as website, CRM-system, email marketing tool, advertising tools and social media channels. By combining existing data sources with relevant external data sources like weather, traffic and demographic data, per unique customer a 360° customer profile is made, which will be enriched with their behaviour. These profiles are used to personalize websites, email marketing and advertising, which increases conversion rate.
-[Learn more](https://help.datatrics.com/en/articles/2474350-what-is-datatrics)
+Part of the MailUp Group Datatrics is an Actionable CDP, that allows you to personalize the entire customer Journey, creating a complete Data Framework to improve your website conversion and Marketing Campaigns.
+Our Machine Learning based algorithms decide and optimize performance, letting you create 360 audiences to drive revenue from multiple touchpoints and multi channel campaigns.
 
 ## Features 
 
-- Integration of your VTEX store with Datatrics.
+ - Product recommendation
+ - Web Personalization
+ - Search Personalization
+ - Customer Journeys
+ - Pop Ups 
+ - Exit Intents
+ - Triggered Emails
+ - Personalized Emails
+ - Email Feeds
+ - Conversational Campaigns
+ - Audience Generation
+ - Audience Sync with Campaign Managers
 
 ## How to configure
 
-You only need te Project Id to install Datatrics on your store
+1.- Add your Project ID in the "Project ID" field provided by datatricks
+2.- Select the product identifier that you use for your store (skuId, referenceId, ean, by default the skuid will be taken)
+3.- Save your configuration
