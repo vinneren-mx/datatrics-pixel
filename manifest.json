@@ -1,9 +1,9 @@
 {
-  "vendor": "xiaomimx",
+  "vendor": "mailup",
   "name": "datatrics-pixel",
-  "version": "0.0.6",
-  "title": "Datatrics Pixel",
-  "description": "Datatrics Pixel",
+  "version": "0.0.0",
+  "title": "Datatrics by Mailup",
+  "description": "Datatrics by Mailup",
   "defaultLocale": "es-MX",
   "builders": {
     "react": "3.x",
