@@ -12,6 +12,13 @@
     "docs": "0.x"
   },
   "mustUpdateAt": "2020-09-05",
+  "billingOptions": {
+    "termsURL": "https://www.datatrics.com/terms-of-service/",
+    "support": {
+      "url": "https://help.datatrics.com/"
+    },
+    "free": true
+  },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
