@@ -9,4 +9,5 @@ interface Window extends Window {
   }
   _paq: any[]
   identificator: string
+  DatatricsReload(): any[]
 }

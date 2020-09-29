@@ -6,15 +6,16 @@ import push from './modules/push'
 export default function () {
   return null
 } // no-op for extension point
-
 function handleMessages(e: PixelMessage) {
   let orderform = JSON.parse(window.localStorage.orderform);
   let identificator = window.identificator as string;
+
   switch (e.data.eventName) {
 
     case 'vtex:pageView': {
       push(["trackPageView"])
       push(["enableLinkTracking"])
+      window.DatatricsReload()
       break
     }
     case 'vtex:orderPlaced': {
