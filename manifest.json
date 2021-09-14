@@ -1,6 +1,6 @@
 {
-  "vendor": "mailup",
-  "name": "datatricks-pixel",
+  "vendor": "xiaomimx",
+  "name": "datatrics-pixel",
   "version": "0.0.12",
   "title": "Datatrics by Mailup",
   "description": "Datatrics by Mailup",
@@ -34,7 +34,18 @@
       "identificator": {
         "title": "Store identificator SKU",
         "description": "Put your product identificator from your store (skuId, referenceId, ean)",
-        "type": "string"
+        "type": "string",
+        "default": "ean",
+        "enum": [
+          "skuId",
+          "referenceId",
+          "ean"
+        ],
+        "enumNames": [
+          "SKU ID",
+          "Reference ID",
+          "EAN"
+        ]
       }
     }
   },
