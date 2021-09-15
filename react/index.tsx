@@ -2,7 +2,6 @@ import { getSkuIdentificator, getViewIdentificator } from './utils/formatHelper'
 import { ProductOrder, PixelMessage, Order } from './typings/events'
 import { canUseDOM } from 'vtex.render-runtime'
 import push from './modules/push'
-let counter = 0
 export default function () {
   return null
 } // no-op for extension point
@@ -12,10 +11,11 @@ function handleMessages(e: PixelMessage) {
 
   switch (e.data.eventName) {
     case 'vtex:pageView': {
+      //console.log(window._count)
       push(["trackPageView"])
       push(["enableLinkTracking"])
-      window.DatatricsReload()
-      counter++;
+      if (window._count > 0) window.DatatricsReload()
+      window._count++;
       break
     }
     case 'vtex:orderPlaced': {

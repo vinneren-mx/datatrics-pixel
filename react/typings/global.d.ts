@@ -7,7 +7,7 @@ interface Window extends Window {
   __SETTINGS__: {
     projectID: string
   }
-  dataLayer: any[]
+  _count: any
   _paq: any[]
   identificator: string
   DatatricsReload(): any[]
