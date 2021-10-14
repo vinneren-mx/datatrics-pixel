@@ -1,5 +1,5 @@
 export interface PixelMessage extends MessageEvent {
-  data: ProductViewData | ProductClickData | OrderPlacedData | PageViewData | ProductImpressionData | AddToCartData | RemoveToCartData | CategoryViewData | DepartmentViewData | CartChangedData
+  data: ProductViewData | ProductClickData | OrderPlacedData | PageViewData | ProductImpressionData | AddToCartData | RemoveToCartData | CategoryViewData | DepartmentViewData | CartChangedData | UserData
 }
 
 export interface EventData {
@@ -71,6 +71,19 @@ export interface ProductImpressionData extends EventData {
   list: string
 }
 
+
+export interface UserData extends PageInfoData {
+  eventType: 'userData'
+  eventName: 'vtex:userData'
+  firstName?: string
+  lastName?: string
+  document?: string
+  id?: string
+  email?: string
+  phone?: string
+  isAuthenticated: boolean
+}
+
 export interface Order {
   currency: string
   accountName: string
@@ -94,6 +107,7 @@ export interface Order {
     id: string
   }
 }
+
 
 interface PaymentType {
   group: string

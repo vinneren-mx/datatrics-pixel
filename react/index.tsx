@@ -84,16 +84,25 @@ function handleMessages(e: PixelMessage) {
       break
     }
     case 'vtex:removeFromCart': {
-      const { items } = e.data, { value } = orderform
+      const { items } = e.data, 
+            { value } = orderform
       push(['addEcommerceItem',
         getSkuIdentificator(items, identificator),
         items[0].variant,
         items[0].category.split("/"),
         items.reduce((acc, val) => acc + val.price, 0) / 100,
-        items[0].quantity
+        items[0].quantity * -1
       ])
       push(['trackEcommerceCartUpdate', value / 100]);
       push(['trackPageView'])
+      break
+    }
+    case 'vtex:userData': {
+      const {isAuthenticated, email} = e.data;
+      if(isAuthenticated){
+        push(["setCustomData", {"email": email}]);
+        push(['trackPageView'])
+      }
       break
     }
     default:
