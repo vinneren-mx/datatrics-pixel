@@ -11,10 +11,17 @@ function handleMessages(e: PixelMessage) {
 
   switch (e.data.eventName) {
     case 'vtex:pageView': {
-      //console.log(window._count)
-      push(["trackPageView"])
-      push(["enableLinkTracking"])
-      if (window._count > 0) window.DatatricsReload()
+      
+      if (window._count == 0){
+        setTimeout(function(){
+          push(["trackPageView"])
+          push(["enableLinkTracking"])
+        }, 1500)
+      } else if (window._count > 0) {
+        push(["trackPageView"])
+        push(["enableLinkTracking"])
+        window.DatatricsReload()
+      }
       window._count++;
       break
     }
