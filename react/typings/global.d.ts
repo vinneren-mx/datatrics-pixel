@@ -10,6 +10,6 @@ interface Window extends Window {
   _count: any
   _paq: any[]
   identificator: string
-  DatatricsReload(): any[]
   dt_dynamic_content: boolean
+  DatatricsReload(): any[]
 }
