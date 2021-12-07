@@ -11,4 +11,5 @@ interface Window extends Window {
   _paq: any[]
   identificator: string
   DatatricsReload(): any[]
+  dt_dynamic_content: boolean
 }

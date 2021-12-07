@@ -11,18 +11,10 @@ function handleMessages(e: PixelMessage) {
 
   switch (e.data.eventName) {
     case 'vtex:pageView': {
-      
-      if (window._count == 0){
-        setTimeout(function(){
-          push(["trackPageView"])
-          push(["enableLinkTracking"])
-        }, 1500)
-      } else if (window._count > 0) {
         push(["trackPageView"])
         push(["enableLinkTracking"])
         window.DatatricsReload()
-      }
-      window._count++;
+        window.dt_dynamic_content = true;
       break
     }
     case 'vtex:orderPlaced': {
