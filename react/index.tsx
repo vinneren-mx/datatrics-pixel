@@ -11,10 +11,10 @@ function handleMessages(e: PixelMessage) {
 
   switch (e.data.eventName) {
     case 'vtex:pageView': {
-        push(["trackPageView"])
-        push(["enableLinkTracking"])
-        window.DatatricsReload()
-        window.dt_dynamic_content = true;
+      push(["trackPageView"])
+      push(["enableLinkTracking"])
+      window.dt_dynamic_content = true;
+      window.DatatricsReload()
       break
     }
     case 'vtex:orderPlaced': {
@@ -83,8 +83,8 @@ function handleMessages(e: PixelMessage) {
       break
     }
     case 'vtex:removeFromCart': {
-      const { items } = e.data, 
-            { value } = orderform
+      const { items } = e.data,
+        { value } = orderform
       push(['addEcommerceItem',
         getSkuIdentificator(items, identificator),
         items[0].variant,
@@ -97,9 +97,9 @@ function handleMessages(e: PixelMessage) {
       break
     }
     case 'vtex:userData': {
-      const {isAuthenticated, email} = e.data;
-      if(isAuthenticated){
-        push(["setCustomData", {"email": email}]);
+      const { isAuthenticated, email } = e.data;
+      if (isAuthenticated) {
+        push(["setCustomData", { "email": email }]);
         push(['trackPageView'])
       }
       break
