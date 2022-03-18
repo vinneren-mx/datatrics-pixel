@@ -17,7 +17,7 @@
     "support": {
       "url": "https://help.datatrics.com/"
     },
-    "free": true,
+    "type": "free",
     "availableCountries": [
       "*"
     ]
