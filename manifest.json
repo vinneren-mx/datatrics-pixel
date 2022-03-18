@@ -13,7 +13,6 @@
   },
   "mustUpdateAt": "2020-09-05",
   "billingOptions": {
-    "termsURL": "https://www.datatrics.com/terms-of-service/",
     "support": {
       "url": "https://help.datatrics.com/"
     },
