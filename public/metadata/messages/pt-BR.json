@@ -16,9 +16,10 @@
         "- Geração de público",
         "- Sincronização de público com gerentes de campanha"
     ],
-    "url": "https://help.datatrics.com/",
+    "websiteURL": "https://help.datatrics.com/",
     "support": {
-        "email": "ernesto@vinneren.com.mx"
+        "email": "ernesto@vinneren.com.mx",
+        "url":  "https://help.datatrics.com/"
     },
     "metricDescription": {
         "track": "metric track",

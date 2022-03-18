@@ -16,9 +16,10 @@
         "- Audience Generation",
         "- Audience Sync with Campaign Managers"
     ],
-    "url": "https://help.datatrics.com/",
+    "websiteURL": "https://help.datatrics.com/",
     "support": {
-        "email": "ernesto@vinneren.com.mx"
+        "email": "ernesto@vinneren.com.mx",
+        "url":  "https://help.datatrics.com/"
     },
     "metricDescription": {
         "track": "metric track",

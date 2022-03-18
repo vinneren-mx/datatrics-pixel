@@ -1,7 +1,7 @@
 {
     "name": "Datatrics by MailUp",
     "headline": "Actionable CDP that personalizes the entire Customer Journey using Machine Based Algorithms to persuade in real time.",
-    "overview": "Part of the MailUp Group Datatrics is an Actionable CDP, that allows you to personalize the entire customer Journey, creating a complete Data Framework to improve your website conversion and Marketing Campaigns. \n Our Machine Learning based algorithms decide and optimize performance, letting you create 360 audiences to drive revenue from multiple touchpoints and multi channel campaigns.",
+    "overview": "Part of the MailUp Group Datatrics is an Actionable CDP, that allows you to personalize the entire customer Journey, creating a complete Data Framework to improve your website conversion and Marketing Campaigns. \\n Our Machine Learning based algorithms decide and optimize performance, letting you create 360 audiences to drive revenue from multiple touchpoints and multi channel campaigns.",
     "features": [
         "- Product recommendation",
         "- Web Personalization",
@@ -16,9 +16,10 @@
         "- Audience Generation",
         "- Audience Sync with Campaign Managers"
     ],
-    "url": "https://help.datatrics.com/",
+    "websiteURL": "https://help.datatrics.com/",
     "support": {
-        "email": "ernesto@vinneren.com.mx"
+        "email": "ernesto@vinneren.com.mx",
+        "url":  "https://help.datatrics.com/"
     },
     "metricDescription": {
         "track": "metric track",
