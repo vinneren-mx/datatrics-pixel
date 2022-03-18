@@ -1,7 +1,7 @@
 {
   "vendor": "mailup",
   "name": "datatrics-pixel",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "title": "Datatrics by Mailup",
   "description": "Datatrics by Mailup",
   "defaultLocale": "es-MX",
@@ -18,7 +18,9 @@
       "url": "https://help.datatrics.com/"
     },
     "free": true,
-    "availableCountries": ["*"]
+    "availableCountries": [
+      "*"
+    ]
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
