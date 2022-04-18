@@ -47,11 +47,12 @@ function handleMessages(e: PixelMessage) {
     }
     case 'vtex:productView': {
       const { product: { categories, selectedSku } } = e.data
+      const catSplit = categories.length >0 && categories[0].split("/").filter(Boolean) || ""
       push([
         'setEcommerceView',
         getViewIdentificator(selectedSku, identificator),
         selectedSku.name,
-        categories[0].split("/").filter(Boolean),
+        catSplit,
         selectedSku.sellers[0].commertialOffer.Price
       ])
       push(['trackPageView'])
@@ -59,13 +60,15 @@ function handleMessages(e: PixelMessage) {
     }
     case 'vtex:categoryView': {
       const { products } = e.data
-      push(['setEcommerceView', false, false, products[0].categories.map(function (a) { return a.replace(/\//g, "") }).filter(Boolean)]);
+      const categories = products[0].categories.length > 0 && products[0].categories.map(function (a) { return a.replace(/\//g, "") }).filter(Boolean) || false
+      push(['setEcommerceView', false, false, categories]);
       push(['trackPageView'])
       break
     }
     case 'vtex:departmentView': {
       const { products } = e.data
-      push(['setEcommerceView', false, false, products[0].categories.map(function (a) { return a.replace(/\//g, "") }).filter(Boolean)]);
+      const categories = products[0].categories.length > 0 && products[0].categories.map(function (a) { return a.replace(/\//g, "") }).filter(Boolean) || false
+      push(['setEcommerceView', false, false, categories]);
       push(['trackPageView'])
       break
     }
