@@ -1,5 +1,5 @@
 export interface PixelMessage extends MessageEvent {
-  data: ProductViewData | ProductClickData | OrderPlacedData | PageViewData | ProductImpressionData | AddToCartData | RemoveToCartData | CategoryViewData | DepartmentViewData
+  data: ProductViewData | ProductClickData | OrderPlacedData | PageViewData | ProductImpressionData | AddToCartData | RemoveToCartData | CategoryViewData | DepartmentViewData | CartChangedData | UserData
 }
 
 export interface EventData {
@@ -28,16 +28,22 @@ export interface DepartmentViewData extends EventData {
   products: Product[]
 }
 
-export interface AddToCartData extends EventData {
+export interface AddToCartData extends  EventData {
   event: 'addToCart'
   eventName: 'vtex:addToCart'
-  items: AddToCartProduct[]
+  items: Item[]
 }
 
-export interface RemoveToCartData extends EventData {
+export interface RemoveToCartData extends Order, EventData {
   event: 'removeFromCart'
   eventName: 'vtex:removeFromCart'
-  items: any[]
+  items: Item[]
+}
+
+export interface CartChangedData extends Order, EventData {
+  event: 'cartChanged'
+  eventName: 'vtex:cartChanged'
+  items: Item[]
 }
 
 export interface OrderPlacedData extends Order, EventData {
@@ -65,6 +71,19 @@ export interface ProductImpressionData extends EventData {
   list: string
 }
 
+
+export interface UserData extends PageInfoData {
+  eventType: 'userData'
+  eventName: 'vtex:userData'
+  firstName?: string
+  lastName?: string
+  document?: string
+  id?: string
+  email?: string
+  phone?: string
+  isAuthenticated: boolean
+}
+
 export interface Order {
   currency: string
   accountName: string
@@ -88,6 +107,7 @@ export interface Order {
     id: string
   }
 }
+
 
 interface PaymentType {
   group: string
@@ -131,16 +151,18 @@ export interface Product {
   categories: string[]
   productId: string
   productName: string
-  selectedSku?: string // inconsistency
+  selectedSku: Item // inconsistency
   items: Item[]
   sku: Item
   [key: string]: any
 }
 
 interface Item {
+  ean: string
   itemId: string
   name: string
-  seller?: Seller
+  seller: Seller
+  sellers: Seller[]
   [key: string]: any
 }
 
@@ -159,7 +181,12 @@ interface AddToCartProduct {
   brand: string
   name: string
   price: number
+  ean: string
   quantity: number
+  referenceId: any[]
   skuId: string
   variant: string
+  category: string
+  [key: string]: any
 }
+

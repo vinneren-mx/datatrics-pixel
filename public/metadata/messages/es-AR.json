@@ -1,0 +1,28 @@
+{
+    "name": "Datatrics by MailUp",
+    "headline": "CDP procesable que personaliza todo el recorrido del cliente utilizando algoritmos basados en máquinas para persuadir en tiempo real",
+    "overview": "Parte de MailUp Group Datatrics es un CDP procesable, que le permite personalizar todo el recorrido del cliente, creando un marco de datos completo para mejorar la conversión de su sitio web y las campañas de marketing.",
+    "features": [
+        "Recomendación de producto",
+        "Personalización web",
+        "Buscar personalización",
+        "Viajes de clientes",
+        "Pop Ups",
+        "Intenciones de salida",
+        "Correos electrónicos activados",
+        "Correos electrónicos personalizados",
+        "Feeds de correo electrónico",
+        "Campañas conversacionales",
+        "Generación de audiencia",
+        "Sincronización de audiencia con administradores de campaña"
+    ],
+    "websiteURL": "https://help.datatrics.com/",
+    "support": {
+        "email": "ernesto@vinneren.com.mx",
+        "url":  "https://help.datatrics.com/"
+    },
+    "metricDescription": {
+        "track": "metric track",
+        "notify": "metric track"
+    }
+}

@@ -1,6 +1,6 @@
 {
   "name": "vtex.datatrics-pixel",
-  "version": "0.1.0",
+  "version": "0.0.5",
   "dependencies": {
     "ramda": "^0.25.0"
   },
@@ -15,6 +15,6 @@
     "tslint": "^5.11.0",
     "tslint-config-vtex": "^2.0.0",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "3.8.3"
+    "typescript": "3.9.7"
   }
 }

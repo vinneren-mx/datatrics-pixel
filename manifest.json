@@ -1,9 +1,9 @@
 {
-  "vendor": "xiaomimx",
+  "vendor": "mailup",
   "name": "datatrics-pixel",
   "version": "0.1.0",
-  "title": "Datatrics Pixel",
-  "description": "Datatrics Pixel",
+  "title": "Datatrics by Mailup",
+  "description": "Datatrics by Mailup",
   "defaultLocale": "es-MX",
   "builders": {
     "react": "3.x",
@@ -11,13 +11,15 @@
     "pixel": "0.x",
     "docs": "0.x"
   },
-  "mustUpdateAt": "2020-06-25",
+  "mustUpdateAt": "2020-09-05",
   "billingOptions": {
-    "termsURL": "",
     "support": {
-      "url": "https://support.vtex.com/hc/requests"
+      "url": "https://help.datatrics.com/"
     },
-    "free": true
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ]
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
@@ -30,6 +32,22 @@
         "title": "Datatrics Project ID",
         "description": "Enter your Project ID",
         "type": "string"
+      },
+      "identificator": {
+        "title": "Store identificator SKU",
+        "description": "Put your product identificator from your store (skuId, referenceId, ean)",
+        "type": "string",
+        "default": "ean",
+        "enum": [
+          "skuId",
+          "referenceId",
+          "ean"
+        ],
+        "enumNames": [
+          "SKU ID",
+          "Reference ID",
+          "EAN"
+        ]
       }
     }
   },

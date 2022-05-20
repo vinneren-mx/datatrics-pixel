@@ -1,82 +1,110 @@
-import { getProductPrice } from './utils/formatHelper'
-import { ProductOrder, PixelMessage } from './typings/events'
+import { getSkuIdentificator, getViewIdentificator } from './utils/formatHelper'
+import { ProductOrder, PixelMessage, Order } from './typings/events'
 import { canUseDOM } from 'vtex.render-runtime'
-
-function dpaq(n: Array<any>): void {
-  console.log('datatrics_data', n);
-  ((window as any)._paq || []).push(n)
-}
-
+import push from './modules/push'
+export default function () {
+  return null
+} // no-op for extension point
 function handleMessages(e: PixelMessage) {
+  let orderform = JSON.parse(window.localStorage.orderform);
+  let identificator = window.identificator as string;
+
   switch (e.data.eventName) {
     case 'vtex:pageView': {
-      dpaq(["trackPageView"])
-      dpaq(["enableLinkTracking"])
+      push(["trackPageView"])
+      push(["enableLinkTracking"])
+      window.dt_dynamic_content = true;
+      window.DatatricsReload()
       break
     }
     case 'vtex:orderPlaced': {
-      const { currency, 
-              transactionTotal, 
-              orderGroup, 
-              transactionShipping, 
-              transactionTax,
-              transactionProducts } = e.data
-      transactionProducts.map((product: ProductOrder,i) => ([
-          dpaq([
-            'addEcommerceItem', 
-            product.sku,
-            product.category,
-            product.quantity,
-            product.sellingPrice
-          ])
+      const { currency,
+        transactionTotal,
+        orderGroup,
+        transactionShipping,
+        transactionTax,
+        transactionProducts } = e.data
+      transactionProducts.map((product: ProductOrder) => ([
+        push([
+          'addEcommerceItem',
+          product.sku,
+          product.category,
+          product.quantity,
+          product.sellingPrice
         ])
+      ])
       )
-      dpaq([
-        'trackEcommerceOrder', 
+      push([
+        'trackEcommerceOrder',
         orderGroup,
         transactionTotal,
         (transactionTotal - transactionShipping),
         transactionTax,
         transactionShipping
       ]);
-      dpaq(['trackPageView']);
-      console.log('orderplaced')
+      push(['trackPageView']);
       break
     }
     case 'vtex:productView': {
-      const { product:{productId, productName, categories, items}, currency } = e.data
-      dpaq([
-        'setEcommerceView', 
-        items[0].itemId, 
-        items[0].name, 
-        categories.slice(-1)[0], 
-        items[0].seller?.commertialOffer.Price
+      const { product: { categories, selectedSku } } = e.data
+      const catSplit = categories.length >0 && categories[0].split("/").filter(Boolean) || ""
+      push([
+        'setEcommerceView',
+        getViewIdentificator(selectedSku, identificator),
+        selectedSku.name,
+        catSplit,
+        selectedSku.sellers[0].commertialOffer.Price
       ])
-      dpaq(['trackPageView'])
+      push(['trackPageView'])
       break
     }
-    case 'vtex:categoryView':{
+    case 'vtex:categoryView': {
       const { products } = e.data
-      dpaq(['setEcommerceView',false,false,products[0].categoryTree.slice(-1)[0]]);
-      dpaq(['trackPageView'])
+      const categories = products[0].categories.length > 0 && products[0].categories.map(function (a) { return a.replace(/\//g, "") }).filter(Boolean) || false
+      push(['setEcommerceView', false, false, categories]);
+      push(['trackPageView'])
       break
     }
-    case 'vtex:departmentView':{
+    case 'vtex:departmentView': {
       const { products } = e.data
-      dpaq(['setEcommerceView',false,false,products[0].categories.slice(-1)[0]]);
-      dpaq(['trackPageView'])
+      const categories = products[0].categories.length > 0 && products[0].categories.map(function (a) { return a.replace(/\//g, "") }).filter(Boolean) || false
+      push(['setEcommerceView', false, false, categories]);
+      push(['trackPageView'])
       break
     }
     case 'vtex:addToCart': {
-      const { items, currency } = e.data
-      dpaq(['addEcommerceItem',
-        items.map(sku => sku.skuId).slice(-1)[0],
-        items.map(sku => sku.name).slice(-1)[0],
-        items.map(sku => sku.name).slice(-1)[0],
-        items.reduce((acc, item) => acc + item.price, 0) /100,
-        items.map(sku => sku.quantity).slice(-1)[0]
+      const { items } = e.data, { value } = orderform
+      push(['addEcommerceItem',
+        getSkuIdentificator(items, identificator),
+        items[0].variant,
+        items[0].category.split("/"),
+        items.reduce((acc, val) => acc + val.price, 0) / 100,
+        items[0].quantity
       ])
-      dpaq(['trackPageView'])
+      push(['trackEcommerceCartUpdate', value / 100]);
+      push(['trackPageView'])
+      break
+    }
+    case 'vtex:removeFromCart': {
+      const { items } = e.data,
+        { value } = orderform
+      push(['addEcommerceItem',
+        getSkuIdentificator(items, identificator),
+        items[0].variant,
+        items[0].category.split("/"),
+        items.reduce((acc, val) => acc + val.price, 0) / 100,
+        items[0].quantity * -1
+      ])
+      push(['trackEcommerceCartUpdate', value / 100]);
+      push(['trackPageView'])
+      break
+    }
+    case 'vtex:userData': {
+      const { isAuthenticated, email } = e.data;
+      if (isAuthenticated) {
+        push(["setCustomData", { "email": email }]);
+        push(['trackPageView'])
+      }
       break
     }
     default:

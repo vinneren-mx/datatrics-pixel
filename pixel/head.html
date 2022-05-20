@@ -1,0 +1,14 @@
+<script>
+	var _paq = _paq || [];
+	var _count = 0;
+	var identificator = identificator || "{{settings.identificator}}";
+	window.dt_dynamic_content = false;
+	(function() {
+		var u=(("https:" == document.location.protocol) ? "https" : "http") + "://tr.datatrics.com/";
+		_paq.push(["setTrackerUrl", u]);
+		_paq.push(["setProjectId", "{{settings.projectID}}"]);
+		var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+		g.type="text/javascript";
+		g.defer=true; g.async=true; g.src=u; s.parentNode.insertBefore(g,s);
+	})();
+</script>
