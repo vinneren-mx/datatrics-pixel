@@ -1,39 +1,45 @@
-import { Item, Product} from '../typings/events'
+import { Item, Product } from "../typings/events";
 
 export function getProductPrice(product: Product) {
-  let price
+  let price;
   try {
-    price = product.items[0].sellers[0].commertialOffer.Price
+    price = product.items[0].sellers[0].commertialOffer.Price;
   } catch {
-    price = undefined
+    price = undefined;
   }
-  return price
+  return price;
 }
 export function getSkuIdentificator(item: Item[], selected: string) {
-  let dataId
+  let dataId;
   try {
-    dataId = item[0][selected] !== undefined ? item[0][selected] : item[0].skuId
+    dataId =
+      item[0][selected] !== undefined ? item[0][selected] : item[0].skuId;
   } catch {
-    dataId = item[0].skuId
+    dataId = item[0].skuId;
   }
-  return dataId
+  return dataId;
 }
 
 export function getViewIdentificator(selectedSku: Item, selected: string) {
-  let dssku = selectedSku.itemId
-  if (selected === 'referenceId') {
+  let dssku = selectedSku.itemId;
+  if (selected === "referenceId") {
     try {
-      dssku = selectedSku.referenceId[0].Value !== undefined ? selectedSku.referenceId[0].Value : selectedSku.itemId
+      dssku =
+        selectedSku.referenceId[0].Value !== undefined
+          ? selectedSku.referenceId[0].Value
+          : selectedSku.itemId;
     } catch {
-      dssku = selectedSku.itemId
+      dssku = selectedSku.itemId;
     }
   } else {
     try {
-      dssku = selectedSku[selected] !== undefined ? selectedSku[selected] : selectedSku.itemId
+      dssku =
+        selectedSku[selected] !== undefined
+          ? selectedSku[selected]
+          : selectedSku.itemId;
     } catch {
-      dssku = selectedSku.itemId
+      dssku = selectedSku.itemId;
     }
   }
-  return dssku
-
+  return dssku;
 }
