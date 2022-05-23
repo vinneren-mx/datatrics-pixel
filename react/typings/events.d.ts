@@ -20,71 +20,71 @@ export interface EventData {
 }
 
 export interface PageViewData extends EventData {
-  event: "pageView";
-  eventName: "vtex:pageView";
+  event: 'pageView';
+  eventName: 'vtex:pageView';
   pageTitle: string;
   pageUrl: string;
   referrer: string;
 }
 
 export interface CategoryViewData extends EventData {
-  event: "categoryView";
-  eventName: "vtex:categoryView";
+  event: 'categoryView';
+  eventName: 'vtex:categoryView';
   products: Product[];
 }
 
 export interface DepartmentViewData extends EventData {
-  event: "departmentView";
-  eventName: "vtex:departmentView";
+  event: 'departmentView';
+  eventName: 'vtex:departmentView';
   products: Product[];
 }
 
 export interface AddToCartData extends EventData {
-  event: "addToCart";
-  eventName: "vtex:addToCart";
+  event: 'addToCart';
+  eventName: 'vtex:addToCart';
   items: Item[];
 }
 
 export interface RemoveToCartData extends Order, EventData {
-  event: "removeFromCart";
-  eventName: "vtex:removeFromCart";
+  event: 'removeFromCart';
+  eventName: 'vtex:removeFromCart';
   items: Item[];
 }
 
 export interface CartChangedData extends Order, EventData {
-  event: "cartChanged";
-  eventName: "vtex:cartChanged";
+  event: 'cartChanged';
+  eventName: 'vtex:cartChanged';
   items: Item[];
 }
 
 export interface OrderPlacedData extends Order, EventData {
-  event: "orderPlaced";
-  eventName: "vtex:orderPlaced";
+  event: 'orderPlaced';
+  eventName: 'vtex:orderPlaced';
 }
 
 export interface ProductViewData extends EventData {
-  event: "productView";
-  eventName: "vtex:productView";
+  event: 'productView';
+  eventName: 'vtex:productView';
   product: Product;
 }
 
 export interface ProductClickData extends EventData {
-  event: "productClick";
-  eventName: "vtex:productClick";
+  event: 'productClick';
+  eventName: 'vtex:productClick';
   product: Product;
 }
 
 export interface ProductImpressionData extends EventData {
-  event: "productImpression";
-  eventName: "vtex:productImpression";
+  event: 'productImpression';
+  eventName: 'vtex:productImpression';
   product: Product;
   position: number;
   list: string;
 }
 
 export interface UserData extends PageInfoData {
-  eventType: "userData";
-  eventName: "vtex:userData";
+  eventType: 'userData';
+  eventName: 'vtex:userData';
   firstName?: string;
   lastName?: string;
   document?: string;
