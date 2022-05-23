@@ -4,8 +4,9 @@
   "dependencies": {
     "ramda": "^0.25.0"
   },
+  "license": "MIT",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
