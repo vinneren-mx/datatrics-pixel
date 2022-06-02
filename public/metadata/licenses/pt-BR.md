@@ -1,136 +1,136 @@
-# Términos de servicio
-En estos Términos y Condiciones Generales, las referencias, interpretaciones y definiciones de los términos en mayúscula se aplican como se describe en el Anexo A.
+# Terms of service
+In these General Terms and Conditions, the references, interpretations, and definitions for capitalized terms apply as described in Annex A.
 
-El Servicio se ofrece a través de Internet en forma de Software como servicio por parte de la empresa Datatrics. El uso del Servicio está sujeto a los siguientes términos y condiciones. El uso del Servicio constituye la aceptación de estos términos y condiciones. Las desviaciones de estos términos y condiciones solo son posibles mediante la confirmación por escrito de Datatrics.
+The Service is offered over the internet in the form of Software-as-a-Service by the company Datatrics. The use of the Service is subject to the below terms and conditions. Using the Service constitutes acceptance of these terms and conditions. Deviations from these terms and conditions is possible only by means of written confirmation by Datatrics.
 
-## Artículo 1 Uso del servicio
-1. Con el Servicio, puede reunir datos de varias fuentes internas y externas en un entorno central, para centralizar las fuentes de datos internas y externas, crear perfiles de clientes únicos, predecir las necesidades de los clientes mediante algoritmos y aprendizaje automático, para crear viajes de clientes relevantes y personalizados, para proporcionar contenido dinámico automatizado a través de diferentes plataformas y/o para avanzar en las conversiones en línea por medio de contenido personalizado más relevante.
-2. Para utilizar el Servicio, primero debe celebrar el Acuerdo Marco.
-3. Para utilizar el Servicio después de concluir el Acuerdo principal, debe registrarse para obtener una Cuenta.
-4. Debe proteger el acceso a su Cuenta mediante una dirección de correo electrónico y una contraseña frente a terceros. En particular, debe mantener la contraseña estrictamente confidencial y la cuenta de correo electrónico en particular debidamente protegida. Datatrics puede asumir que todas las acciones realizadas desde su Cuenta después de iniciar sesión con su dirección de correo electrónico y contraseña están autorizadas y supervisadas por usted. Esto significa que usted es responsable de estas acciones e indemniza a Datatrics de todos los reclamos y daños que resulten de ese uso. En caso de que sepa o tenga motivos para suponer que la dirección de correo electrónico y la contraseña son utilizadas por otra persona, debe notificarlo de inmediato a Datatrics, sin perjuicio de su propia obligación de tomar medidas para evitar cualquier (mayor) daño.
-5. El Acuerdo principal se concluirá tan pronto como marque "Acepto el acuerdo principal" y haga clic en "Aceptar y firmar", o si Datatrics puede considerar razonablemente su comportamiento como (impresión de) (argumentado) consentimiento.
-6. Puede incluir datos personales en su Cuenta. Usted garantiza que la información que ingresa o proporciona al registrarse en el Servicio y cuando incluye datos de contacto en su Cuenta es completa, actualizada y precisa.
+## Article 1 Use of the service
+1. With the Service, you can bring data from various internal and external sources together in one central environment, in order to centralize internal and external data sources, to create unique customer profiles, to predict customer needs by means of algorithms and machine learning, to create relevant and personalized customer journeys, to provide automated dynamic content through different platforms and/or to advance online conversions by means of more relevant, personalised content.
+2. To use the Service, you are first required to conclude the Master Agreement.
+3. To use the Service after concluding the Master Agreement, you need to register for an Account.
+4. You must secure access to your Account using an email address and password against third parties. In particular you must keep the password strictly confidential and the particular email account adequately secured. Datatrics may assume that all actions undertaken from your Account after logging in with your email address and password is authorized and supervised by you. This means you are liable for these actions, and you indemnify Datatrics from all claims and damages resulting from that use. In the event you know or have reasons to assume that the email address and password are used by someone else, you should immediately notify Datatrics thereof, notwithstanding your own obligation to take measures to prevent any (further) damages.
+5. The Master Agreement will be concluded as soon as you check “I agree to the master agreement” and you click “Accept & Sign”, or if Datatrics may reasonably consider your behavior as (impression of) (argued) consent.
+6. You may include personal data in your Account. You warrant that the information you enter or provides when registering for the Service and when you include contact data in your Account is complete, up to date and accurate.
 
-## Artículo 2 Derechos y Obligaciones
-1. No está permitido usar el Servicio para ningún propósito que viole las leyes de los Países Bajos u otra ley o regulación aplicable.
-2. Usted garantiza que su uso del Servicio es en todo momento de acuerdo con estos Términos de uso y el Acuerdo principal.
-3. En caso de que Datatrics descubra que usted viola alguno de los puntos anteriores, o reciba una queja alegando lo mismo, Datatrics emitirá una advertencia. Si la advertencia no conduce a una resolución aceptable, Datatrics puede intervenir para poner fin a la infracción. En casos urgentes o graves, Datatrics puede intervenir sin previo aviso.
-4. Si, en opinión de Datatrics, el funcionamiento continuado de los sistemas informáticos o la red de Datatrics o de terceros se daña o se pone en peligro o se corre el riesgo de que se dañe o se ponga en peligro, por ejemplo, a través de una transmisión excesiva de datos, fugas de datos personales o actividad de virus, Datatrics puede tomar todas las medidas que considere razonablemente necesarias para poner fin o evitar dicho daño o peligro.
-5. Datatrics tiene derecho en todo momento a presentar una denuncia penal por cualquier infracción cometida a través o utilizando el servicio. Además, Datatrics tiene derecho a proporcionar su nombre, dirección de correo electrónico, dirección IP y/u otros datos de identificación a un tercero alegando que usted viola sus derechos o estos términos y condiciones, siempre que la validez de la queja sea clara, de ninguna otra manera. de obtener esta información existe y el tercero tiene un interés evidente en obtener esta información.
-6. Usted reconoce que el éxito del Servicio depende del uso adecuado del Servicio. Datatrics no es en ningún caso responsable de los resultados del uso del Servicio.
-7. Usted garantiza que los derechos de terceros no se oponen al uso de información a través del Servicio, tales como derechos a datos personales, archivos de datos confidenciales, video, texto, música, software, logotipos, material de diseño y demás.
-8. Usted exime a Datatrics de todos los reclamos, procedimientos, pérdidas y/o daños directos y/o indirectos sufridos por terceros basados ​​en, o que surjan de, o de alguna manera relacionados con (una violación de) el Acuerdo Marco o el Términos y Condiciones Generales, a menos que esto sea el resultado de negligencia grave o dolo por parte de Datatrics y/o su personal administrativo. Datatrics puede recuperar de usted todos los daños que sufra como resultado de su violación de estos Términos y condiciones generales.
+## Article 2 Rights and Obligations
+1. It is not permitted to use the Service for any purpose that violates laws of The Netherlands or other applicable law or regulation.
+2. You warrant that your use of the Service is at all times in accordance with these Terms of Use and the Master Agreement.
+3. Should Datatrics discover that you violate any of the above, or receive a complaint alleging the same, Datatrics will issue a warning. If the warning does not lead to an acceptable resolution, then Datatrics may intervene to end the violation. In urgent of serious cases Datatrics may intervene without warning.
+4. If in the opinion of Datatrics the continued functioning of the computer systems or network of Datatrics or third parties is actually or under threat of being damaged or jeopardized, for example through excessive transmission of data, leaks of personal data or virus activity, Datatrics may take all steps it deems reasonably necessary to end or avert such damage or jeopardy.
+5. Datatrics is at all times entitled to file a criminal complaint for any offenses committed through or using the service. In addition Datatrics is entitled to supply your name, email address, IP-address and/or other identifying data to a third party alleging that you violate its rights or these terms and conditions, provided the validity of the complaint is clear, no other way of obtaining this information exists and the third party has an evident interest in obtaining this information.
+6. You acknowledge that the success of the Service is co-dependent on proper use of the Service. Datatrics is in no event liable or responsible for the results of the use of the Service.
+7. You warrant that third party rights do not oppose to the use of information through the Service, such as rights to personal data, confidential data files, video, text, music, software, logos, design material and such.
+8. You indemnifies Datatrics from all claims, procedures, losses and / or direct and / or indirect damage suffered by third parties based on, or arising out of, or in any way related to, (a violation of) the Master Agreement or the General Terms and Conditions, unless this is the result of gross negligence or intent by Datatrics and / or its management staff. Datatrics may recoup from you all damages it suffers as a result of your violation of these General Terms and Conditions.
 
-## Artículo 3 Disponibilidad y mantenimiento
-1. Datatrics no le otorga garantías, compromisos ni indemnizaciones de ningún tipo con respecto a la calidad, seguridad, legalidad, integridad, idoneidad y corrección del Servicio.
-2. Datatrics hace todo lo posible para que el Servicio esté disponible en todo momento, y solo está dispuesto a ofrecer garantías específicas si se celebra un Acuerdo Marco de nivel de servicio por separado con Datatrics.
-3. Datatrics mantiene activamente el Servicio. El mantenimiento puede tener lugar en cualquier momento, incluso si esto puede afectar negativamente a la disponibilidad del Servicio. El mantenimiento se anuncia con anticipación siempre que sea posible.
-4. Datatrics puede adaptar el Servicio de vez en cuando. Sus comentarios y sugerencias son bienvenidos, pero en última instancia, Datatrics decide qué adaptaciones llevar a cabo (o no).
+## Article 3 Availability and maintenance
+1. Datatrics does not give you any warranties, commitments or indemnifications in any form whatsoever regarding the quality, safety, legality, integrity, suitability and correctness of the Service.
+2. Datatrics uses its best efforts to have the Service available at all times, and is only willing to make specific guarantees if a separate service level Master Agreement is concluded with Datatrics.
+3. Datatrics actively maintains the Service. Maintenance can take place at any time, even if this may negatively impact the availability of the Service. Maintenance is announced in advance whenever possible.
+4. Datatrics may from time to time adapt the Service. Your feedback and suggestions are welcome but ultimately Datatrics decides which adaptations to carry out (or not).
 
-## Artículo 4 Derechos de propiedad intelectual
-1. El Servicio, la Plataforma, el Sitio Web y todo el software que lo acompaña, así como toda la información, imágenes, material audiovisual y textos están protegidos por Derechos de Propiedad Intelectual de Datatrics y/o sus licenciantes. Ninguno de estos elementos se puede copiar o usar sin el permiso previo por escrito de Datatrics, excepto y en la medida en que lo permita la ley obligatoria.
-2. Usted obtiene los derechos de uso del Servicio derivados del Contrato Marco, que serán siempre no exclusivos, intransferibles y no sublicenciables, y bajo la condición suspensiva del pago de las tarifas aplicables (Artículo 5). Puede usar el Servicio únicamente en y en nombre de su propia empresa u organización y solo para el uso previsto.
-3. La información que almacene o procese utilizando el Servicio es y seguirá siendo suya y su riesgo y responsabilidad. En la medida en que sea necesario, Datatrics recibe una licencia limitada para usar esta información para el Servicio, incluso para aspectos futuros del mismo. Puede cancelar esta licencia eliminando la información en cuestión y/o rescindiendo el Acuerdo principal.
-4. Si envía información a Datatrics, por ejemplo, un informe de error o una sugerencia de mejora, otorga a Datatrics una licencia perpetua e ilimitada para usar esta información. Esto no se aplica a la información que marca expresamente como confidencial.
-5. Datatrics se abstendrá de acceder a los datos que almacene o transfiera utilizando el Servicio, salvo que sea necesario para una buena prestación del Servicio o Datatrics se vea obligada a ello por ley u orden de autoridad competente. En estos casos, Datatrics hará sus mejores esfuerzos para limitar al máximo el acceso a la información.
-6. No está autorizado a utilizar los nombres comerciales, las marcas registradas y los logotipos de Datatrics en el contexto de actividades promocionales, incluida la inclusión en su sitio web, sin el consentimiento previo por escrito de Datatrics.
-7. Partes:
-    1. se consultarán entre sí antes de emitir cualquier comunicado de prensa u otra publicación o publicidad con respecto al Acuerdo Marco;
-    2. no emitirá comunicados de prensa, publicaciones o anuncios sin el consentimiento previo de la otra Parte, cuyo consentimiento no será retenido ni retrasado por motivos irrazonables;
-    3. podrá, sin el consentimiento previo de la otra Parte, hacer una declaración pública o no pública si así lo exige la ley o una orden judicial.
+## Article 4 Intellectual Property Rights
+1. The Service, the Platform, the Website and all accompanying software as well as all information, images, audiovisual material and texts are protected by Intellectual Property Rights of Datatrics and/or its licensors. None of these items may be copied or used without prior written permission of Datatrics, except and to the extent permitted by mandatory law.
+2. You obtain the usage rights to the Service arising from the Master Agreement, which will always be non-exclusive, non-transferable and non-sublicensable, and under the condition precedent of payment of the applicable fees (Article 5). You may use the Service solely in, and on behalf of, your own company or organization and for the intended use only.
+3. Information you store or process using the Service is and remains yours and your risk and responsibility. In as far as necessary, Datatrics receives a limited license to use this information for the Service, including for future aspects thereof. You can cancel this license by removing the information in question and/or terminating the Master Agreement.
+4. If you send information to Datatrics, for example a bug report or suggestion for improvement, you grant Datatrics a perpetual and unlimited license to use this information. This does not apply to information you expressly mark as confidential.
+5. Datatrics shall refrain from accessing data you store or transfer using the Service, unless this is necessary for a good provision of the Service or Datatrics is forced to do so by law or order of competent authority. In these cases Datatrics shall use its best efforts to limit access to the information as much as possible.
+6. You are not authorized to use Datatrics’ trade name(s), trademark(s) and/or logo(s) in the context of promotional activities, including listing on your website, without Datatrics’ prior written consent.
+7. Parties:
+    1. will consult each other before they will express any press release or other publication or advertisement regarding the Master Agreement;
+    2. will not express press release, publication or advertisement without the prior consent of the other Party, which consent will not be withheld or delayed for unreasonable reasons;
+    3. may, without the prior consent of the other Party, make a public or non-public statement if this is required by law or by a court order.
 
-## Artículo 5 Pago
-1. El uso del Servicio está sujeto a tarifas, como se establece en el Acuerdo Marco y/o en el Sitio Web. La tarifa aplicable puede variar según los Servicios (adicionales) acordados.
-2. Datatrics ofrece varias suscripciones, incluida la Plataforma de datos del cliente (CDP) y la Herramienta procesable de CDP, como se describe en el Acuerdo principal y/o en el Sitio web. Con respecto a estas suscripciones, puede elegir una suscripción anual (estándar) o una suscripción mensual.
-3. Cuando se suscribió al CDP, siempre puede actualizar a una suscripción procesable de CDP a partir del próximo mes.
-4. Cuando se suscribió a CDP Actionable, puede cambiar a una suscripción de CDP. Con una suscripción procesable anual de CDP, puede cambiar a una suscripción de CDP a partir del momento en que se renueve el Acuerdo principal. Con una suscripción mensual de CDP procesable, puede cambiar a una suscripción de CDP a partir del mes siguiente al mes siguiente.
-5. Las tarifas vencen periódicamente, como se describe en el Servicio, y deben pagarse por adelantado. Datatrics puede facturar por adelantado.
-6. La tarifa de los Servicios depende del tráfico (sesiones) en su sitio web. Datatrics monitorea la cantidad de sesiones en su sitio web cada mes. Si Datatrics detecta que hay un uso excesivo (= se permiten más sesiones que en base a la licencia) en su sitio web del 10 % durante 4 meses o del 50 % durante 1 mes, Datatrics tiene derecho a aumentar la tarifa de los Servicios al monto de la tarifa correspondiente a la licencia que corresponde a la cantidad real de sesiones en su sitio web.
-7. El pago es posible mediante domiciliación bancaria, mediante transferencia bancaria a la cuenta bancaria de Datatrics, o como se explica más adelante en el Sitio web y en el Servicio.
-8. Está de acuerdo con la facturación electrónica.
-9. Todos los montos mencionados por Datatrics son sin IVA y en euros.
-10. Datatrics maneja un plazo de pago de 30 (treinta) días calendario. Usted está obligado a pagar las tasas dentro del plazo de pago acordado. El final de este período de pago es una fecha límite fatal.
-11. En caso de que no pague dentro del período de pago, Datatrics podrá suspender (parcial o totalmente) y/o rescindir el Contrato Marco. Además, está obligado a pagar la tasa de interés legal por el monto pendiente sobre la base del artículo 6:119a del Código Civil holandés. Este se adeuda desde el primer día siguiente al vencimiento del plazo de pago, sin necesidad de notificación de mora. También debe pagar una compensación total por todos los costos extrajudiciales y judiciales (cobro), incluidos, entre otros, los costos de abogados, alguaciles y agencias de cobro de deudas. Datatrics tiene derecho a cobrarle el 15 % del importe pendiente, con un mínimo de EUR 40, -, sin perjuicio del derecho de Datatrics a cobrarle los costes reales si estos superan el 15 % del importe pendiente.
-12. No tiene derecho a liquidar o suspender ningún pago o cantidad adeudada, por ningún motivo.
-13. Datatrics tiene derecho a revisar sus tarifas periódicamente. Si Datatrics decide hacer esto, se lo notificará antes de la fecha de revisión.
+## Article 5 Payment
+1. The use of the Service is subject to fees, as stated in the Master Agreement and/or on the Website. The applicable fee may vary according to the (additional) Services agreed upon.
+2. Datatrics offers various subscriptions, including to the Customer Data Platform (CDP) and the CDP Actionable Tool, as described in the Master Agreement and/or on the Website. With regard to these subscriptions, you can choose an annual subscription (standard) or a monthly subscription.
+3. When you subscribed to the CDP, you can always upgrade to a CDP Actionable subscription as of the next month.
+4. When you subscribed to the CDP Actionable, you can downgrade to a CDP subscription. With an annual CDP Actionable subscription, you can downgrade to a CDP subscription as of the moment the Master Agreement shall be renewed. With a monthly CDP Actionable subscription, you can downgrade to a CDP subscription as of the month after the next month.
+5. The fees are due periodically, as described within the Service, and must be paid in advance. Datatrics is allowed to bill in advance.
+6. The fee of the Services is depending on the traffic (sessions) on your website. Datatrics monitors the amount of sessions on your website each month. If Datatrics detects there is an overuse (= more sessions than on the base of the license is allowed) on your website of 10% for 4 months or 50% for 1 month, Datatrics is entitled to raise the fee of the Services to the amount of the fee belonging to the license which corresponds with the actual amount of sessions on your website.
+7. Payment is possible through direct debit order, by making a wire transfer to the bank account of Datatrics, or as explained further on the Website and in the Service.
+8. You agree with electronic invoicing.
+9. All amounts mentioned by Datatrics are exclusive of VAT and in euro’s.
+10. Datatrics handles a payment period of 30 (thirty) calendar days. You are obliged to pay the fees within the agreed payment period. The end of this payment period is a fatal deadline.
+11. In the case you do not pay within the payment period, Datatrics is allowed to suspend (partly or fully) and/or to terminate the Master Agreement. Also, you are obliged to pay the legal interest rate for the outstanding amount on the base of article 6:119a Dutch Civil Code. This is owed from the first day after expiration of the payment period, without requiring a notice of default. You are also held to pay full compensation for all extrajudicial and judicial (collection) costs, including but not limited to costs for attorneys, bailiffs and debt collection agencies. Datatrics is entitled to charge 15% of the outstanding amount to you, with a minimum of EUR 40, -, without prejudice to Datatrics’ right to charge the actual costs to you if these actual costs exceed 15% of the outstanding amount.
+12. You are not entitled to settle or suspend any payment or due amount, for any reason whatsoever.
+13. Datatrics is entitled to revise its rates periodically. If Datatrics decide to do this, it will notify you about this before the date of revision.
 
-## Artículo 6 Confidencialidad
-1. Deberá tratar la información de manera confidencial cuando Datatrics haya designado esta información como confidencial o cuando sepa o deba sospechar razonablemente que la información tenía la intención de ser confidencial. En cualquier caso, deberá tratar el contenido del Contrato Marco como confidencial.
-2. Exigirá a sus empleados y personal que cumplan con la misma obligación de confidencialidad.
-3. La obligación de confidencialidad continúa después de la terminación del Contrato Marco.
+## Article 6 Confidentiality
+1. You shall treat information confidentially when Datatrics has appointed this information as confidential or when you know or reasonably should suspect that the information was intended to be confidential. You shall in any event treat the contents of the Master Agreement(s) as confidential.
+2. You shall require your employees and staff to abide the same confidentiality obligation.
+3. The confidentiality obligation continues after the termination of the Master Agreement.
 
-## Artículo 7 Privacidad
-1. Datatrics no procesará datos personales que no sean para la ejecución del Acuerdo principal y/o como se menciona en el acuerdo de procesamiento de datos y/o su política de privacidad.
-2. La responsabilidad de los datos personales procesados ​​por usted con el Servicio es exclusivamente suya. Usted califica como responsable del tratamiento en el sentido de la Ley General de Protección de Datos. Datatrics tiene la condición de encargado del tratamiento en el sentido de la Ley General de Protección de Datos. Debe celebrar un acuerdo de procesamiento de datos con Datatrics.
+## Article 7 Privacy
+1. Datatrics will not process personal data other than for the performance of the Master Agreement and/or as mentioned in the data processing agreement and/or its privacy policy.
+2. The responsibility for the personal data processed by you with the Service is exclusively with you. You qualify as the controller in the sense of the General Data Protection Act. Datatrics qualifies as the processor in the sense of the General Data Protection Act. You are required to conclude a data processing agreement with Datatrics.
 
-## Artículo 8 Limitación de responsabilidad
-1. Queda excluida la responsabilidad de Datatrics por los daños resultantes de una falla atribuible en la Ejecución del Acuerdo Marco, de cualquier acto ilegal o de otro tipo, a menos que se disponga lo contrario en este artículo.
-2. La responsabilidad de Datatrics por Daños directos que resulten de una falla atribuible en la Ejecución del Acuerdo principal, de cualquier acto ilegal o de otro tipo, es por evento (una serie de eventos sucesivos se considera como un solo evento) y se limita al monto pagado por usted. en los tres meses anteriores al momento en que se produzca la causa del daño, con un máximo de 15.000,- euros.
-3. Datatrics en ningún caso será responsable por daños indirectos, daños consecuentes, lucro cesante, ahorros perdidos o daños por interrupción del negocio.
-4. Los daños solo pueden reclamarse si se informa por escrito a Datatrics como máximo dos meses después del descubrimiento.
-5. A menos que la ejecución del Acuerdo principal por parte de Datatrics sea permanentemente imposible, la responsabilidad de Datatrics por fallas atribuibles en la ejecución del Acuerdo principal se incurrirá solo si envía inmediatamente a Datatrics una notificación por escrito de incumplimiento ("ingebrekestelling"), estableciendo un plazo razonable. término para la recuperación de la falla, y Datatrics también después de ese término es imputable al incumplimiento de sus obligaciones. El aviso de incumplimiento debe contener una descripción completa y detallada de las fallas para que Datatrics tenga la oportunidad de responder adecuadamente.
-6. En caso de fuerza mayor, Datatrics nunca estará obligado a compensar los daños sufridos por usted.
+## Article 8 Limitation of liability
+1. Datatrics’ liability for damages resulting from an attributable failure in the Performance of the Master Agreement, from any unlawful act or otherwise, is excluded, unless otherwise provided in this article.
+2. Datatrics’ liability for Direct Damages resulting from an attributable failure in the Performance of the Master Agreement, from any unlawful act or otherwise, is per event (a series of successive events is seen as one event) limited to the amount paid by you in the three months prior to the moment the cause of the damage occurred, with a maximum of EUR 15,000.-.
+3. Datatrics in no event liable for indirect damages, consequential damages, lost profits, missed savings or damages through business interruption.
+4. Damages may only be claimed if reported in writing to Datatrics at most two months after discovery.
+5. Unless Performance of the Master Agreement by Datatrics is permanently impossible, Datatrics’ liability for attributable failures in the performance of the Master Agreement will be incurred only if you immediately send Datatrics a written notice of default (“ingebrekestelling”), setting a reasonable term for the recovery of the failure, and Datatrics also after that term is attributable failing to fulfill its obligations. The notice of default must contain a complete and detailed description of the failures so that Datatrics is given the opportunity to respond adequately.
+6. In case of Force Majeure Datatrics is never required to compensate damages suffered by you.
 
-## Artículo 9 Plazo y rescisión
-1. El Contrato Marco entra en vigor en la fecha en que lo firman usted y Datatrics y luego permanece vigente durante doce (12) meses. También es posible acordar un plazo de un (1) mes en su lugar, mediante acuerdo por escrito por separado, por una tarifa adicional.
-2. Transcurrido el plazo inicial del Contrato Marco, según lo indicado en la cláusula anterior, el Contrato Marco se renueva silenciosamente por plazos sucesivos de igual plazo. Usted puede rescindir el Contrato Marco por la finalización del término indicado en la cláusula anterior con un período de preaviso de un (1) mes calendario haciendo clic en "Cancelar suscripción" en el encabezado "Facturación" en la Plataforma.
-3. Al rescindir el Acuerdo principal, como se indica en la cláusula anterior, usted está obligado a detener todo uso del Servicio, lo que incluye, entre otros, desactivar el uso de todas las actividades de sincronización, como eliminar el píxel de seguimiento en línea, antes del final de el plazo, o en su defecto se renueva silenciosamente el Contrato Marco con plazos sucesivos del mismo plazo.
-4. Puede actualizar el Servicio aceptando módulos adicionales en cualquier momento. Solo puede degradar el Servicio al terminar los módulos agregados al final del plazo indicado en la cláusula 9.1, teniendo en cuenta las formalidades indicadas en la cláusula 9.2 y 9.3.
-5. Datatrics tiene derecho a rescindir el Acuerdo principal en cualquier momento teniendo en cuenta un período de preaviso de un mes.
-6. Puede exportar los datos que almacena o procesa utilizando el Servicio en cualquier momento a través de la Plataforma.
-7. Si, en el momento de la rescisión, ya ha recibido la Ejecución del Acuerdo Marco, esta(s) Ejecución(es) y la obligación de pago relacionada no estarán sujetas a cancelación.
-8. Datatrics nunca se verá obligado a reembolsar el dinero recibido, ni será responsable de ninguna compensación con respecto a la cancelación, rescisión u otra rescisión del Acuerdo principal. Los importes facturados por Datatrics antes de la cancelación no se verán afectados y serán pagaderos inmediatamente después de la cancelación.
+## Article 9 Term and termination
+1. The Master Agreement enters into force on the date on which it is signed by you and Datatrics and then remains in force for twelve (12) months. It is also possible to agree upon a term of one (1) month instead, by separate written agreement, for an additional fee.
+2. After the initial term of the Master Agreement, as indicated in the previous clause, the Master Agreement is silently renewed with successive terms of the same period. You can terminate the Master Agreement by the end of the term indicated in the previous clause with a notice period of one (1) calendar month by clicking “Cancel subscription” under the heading “Billing” in the Platform.
+3. When terminating the Master Agreement, as meant in the previous clause, you are obliged to stop all use of the Service, including but not limited to deactivate the use of all synchronisation activities such as deleting the online tracking pixel, before the end of the term, or otherwise the Master Agreement is silently renewed with successive terms of the same period.
+4. You are allowed to upgrade the Service by agreeing upon additional modules at any time. You can only downgrade the Service by terminating added modules at the end of the term indicated in clause 9.1, taking into account the formalities indicated in clause 9.2 and 9.3.
+5. Datatrics is entitled to terminate the Master Agreement at any time taking into account a notice period of one months.
+6. You can export the data you store or process using the Service at any time through the Platform.
+7. If, at the time of a rescission, you has already received Performance of the Master Agreement, these Performance(s) and the related payment obligation will not be subject to cancellation.
+8. Datatrics will never be held to refund any money received, or be liable for any compensation regarding cancellation, rescission or other termination of the Master Agreement. Amounts invoiced by Datatrics before cancellation remain unaffected and will be due immediately upon cancellation.
 
-## Artículo 10 . Cambios en los términos
-1. Datatrics puede cambiar o agregar estos Términos y condiciones generales, así como cualquier precio en cualquier momento.
-2. Datatrics anunciará a través del Servicio los cambios o adiciones al menos treinta días antes de su entrada en vigor.
-3. Si no desea aceptar un cambio o adición, puede rescindir el Contrato Marco hasta la fecha en que los cambios surtan efecto. El uso del Servicio después de la fecha de vigencia constituirá su aceptación de los Términos y Condiciones Generales modificados o agregados.
+## Article 10 . Changes to terms
+1. Datatrics may change or add to these General Terms and Conditions as well as any prices at any time.
+2. Datatrics shall announce through the Service changes or additions at least thirty days before their taking effect.
+3. If you do not want to accept a change or addition, you can terminate the Master Agreement until the date the changes take effect. Use of the Service after the date of effect shall constitute your acceptance of the changed or added-to General Terms and Conditions.
 
-## Artículo 11 Gestión de conflictos
-1. Las leyes de los Países Bajos se aplican a estos Términos y Condiciones Generales, el Acuerdo Marco, así como a cualquier otro acto (legal) entre las Partes.
-2. Excepto en la medida en que la ley aplicable imperativa determine lo contrario, todas las disputas que surjan en relación con el Servicio se intentarán resolver entre las Partes. Cualquier controversia que pueda surgir entre las Partes y que no pueda resolverse mediante esfuerzos mutuos para ello, podrá ser sometida por cualquiera de las Partes a mediación. Si esta mediación no conduce a una determinación dentro de los sesenta días calendario, o si la disputa no se somete a mediación, la disputa puede presentarse ante el tribunal competente de Overijssel en Almelo, Países Bajos. Esto no afecta el derecho de cualquiera de las Partes a obtener una disposición provisional a través del tribunal competente de Overijssel en Almelo, Países Bajos.
+## Article 11 Conflict management
+1. The laws of the Netherlands apply to these General Terms and Conditions, the Master Agreement, as well as any other (legal) acts between Parties.
+2. Except to the extent determined otherwise by mandatory applicable law all disputes arising in connection with the Service shall be tried to be resolved between the Parties. Any dispute that may arise between Parties and can not be resolved through mutual efforts thereto, may be submitted by any Party to mediation. If this mediation does not lead to a determination within sixty calendar days, or if the dispute is not submitted to mediation the dispute can be submitted to the competent court of Overijssel in Almelo, the Netherlands. This does not affect the right of either Party to obtain a provisional provision through the competent court of Overijssel in Almelo, the Netherlands.
 
-## Artículo 12 Aplicabilidad
-1. Estos Términos de uso se aplican al Contrato marco y la realización del trabajo por parte de Datatrics y la realización de otras acciones (legales) entre las Partes.
-2. Las desviaciones de estos Términos de uso son válidas solo si han sido aceptadas por escrito y expresamente por Datatrics.
-3. Por la presente se rechaza explícitamente la aplicabilidad de cualquiera de sus términos, incluidos los términos y condiciones de compra.
-4. Datatrics tiene derecho a modificar o complementar estos Términos y Condiciones Generales.
-5. Si una disposición del Contrato Marco y/o los Términos y Condiciones Generales es nula o se anula, las demás disposiciones permanecerán plenamente vigentes. En tal caso, las Partes se consultarán entre sí para acordar nuevas disposiciones que sustituyan a las nulas o anuladas, en las que se tendrá en cuenta, en la medida de lo posible, el objeto y significado de las disposiciones nulas o anuladas.
-6. La versión de cualquier comunicación y/o información (supervisada) registrada por Datatrics se considerará auténtica, a menos que proporcione pruebas en contrario.
-7. Datatrics tiene derecho a transferir sus derechos y obligaciones en virtud de este Acuerdo principal a un tercero como parte de la adquisición del Servicio o las actividades comerciales asociadas.
+## Article 12 Applicability
+1. These Terms of Use apply to the Master Agreement and the performance of work by Datatrics and the performance of other (legal) actions between Parties.
+2. Deviations from these Terms of Use are valid only if they have been accepted in writing and expressly by Datatrics.
+3. Applicability of any your terms, including your terms and conditions of purchase, is hereby explicitly rejected.
+4. Datatrics is entitled to modify or supplement these General Terms and Conditions.
+5. If a provision of the Master Agreement and/or the General Terms and Conditions is void or is voided, the other provisions will remain fully in effect. In such case, Parties will consult with one another to agree new provisions to replace the void or voided ones, in which the purpose and meaning of the void or voided provisions will be taken into account as far as possible.
+6. The version of any communication and/or (monitored) information as recorded by Datatrics shall be deemed to be authentic, unless you supply proof to the contrary.
+7. Datatrics is entitled to transfer its rights and obligations under this Master Agreement to a third party as part of an acquisition of the Service or the associated business activities.
 
-## Anexo A Referencias, términos e interpretaciones
+## Annex A References, Terms and Interpretations
 
-1. En los Términos y Condiciones Generales y el Contrato Marco:
-    1. la referencia a cualquier estatuto incluye una referencia a ese estatuto enmendado, ampliado o promulgado de nuevo y a cualquier reglamento, orden, instrumento o legislación subordinada bajo el estatuto pertinente;
-    2. la referencia a cualquier considerando, cláusula, párrafo o anexo es a un considerando, cláusula, párrafo o anexo (según sea el caso) de estos Términos y Condiciones Generales;
-    3. la referencia al singular incluye una referencia al plural y viceversa;
-    4. la referencia a "o" no es exclusiva y "incluir" e "incluyendo" no se interpretarán ni leerán como limitantes;
-    5. la referencia a "por el presente", "en el presente", "del presente", "en virtud del presente" y cualquier palabra similar se refieren a los Términos y Condiciones Generales, excepto cuando, sobre la base del contexto, otro significado pueda ser la única interpretación razonable;
-    6. la referencia a una ley o reglamento incluye cualquier enmienda o modificación a dicha ley o reglamento y cualquier otra regla emitida en virtud de la misma o cualquier ley o reglamento que la sustituya;
-    7. la referencia a cualquier género incluye una referencia a todos los demás géneros;
-    8. las referencias a una persona física o jurídica incluyen a sus sucesores o cesionarios, en la medida permitida por el Acuerdo Marco y/o los Términos y Condiciones Generales;
-    9. cualquier derecho de cualquiera de las Partes puede ejercerse en cualquier momento y de vez en cuando, a menos que se especifique lo contrario en el Contrato Marco y/o los Términos y Condiciones Generales;
-    10. la referencia a “escrito/por escrito” en este Acuerdo Marco también se refiere a la comunicación por correo electrónico, siempre que se establezca adecuadamente la identidad del remitente y la integridad de los contenidos;
-    11. la referencia a un artículo en los Términos y Condiciones Generales o el Acuerdo Marco será una referencia a dicha sección del cuerpo de los Términos y Condiciones Generales, respectivamente, el Acuerdo Marco, y no a ningún anexo u otro documento, a menos que se indique explícitamente de lo contrario; y
-    12. Las referencias específicas en (el cuerpo de) los Términos y Condiciones Generales o el Acuerdo Marco a otras partes del Acuerdo Marco se entenderán sin perjuicio de la plena aplicabilidad general de cualquier disposición no referenciada o parte de la misma.
-2. En los Términos y Condiciones Generales y el Contrato Marco:
-    1. los títulos de los artículos, secciones, partes o párrafos de los Términos y Condiciones Generales y el Acuerdo Marco son solo para facilitar la referencia y no afectarán la interpretación de los respectivos derechos y obligaciones de las Partes y no formarán parte alguna de los Términos y Condiciones Generales y el Contrato Marco para los efectos de la construcción;
-    2. en caso de cualquier inconsistencia o conflicto entre las diversas partes de los Términos y Condiciones Generales y/o el Contrato Marco, se aplicará el siguiente orden, por el cual cualquier documento mencionado en una categoría anterior prevalecerá sobre cualquier documento mencionado en una posterior categoría a continuación, y no enumerada en ninguna categoría a continuación, tendrá el mismo rango y será tan vinculante como el documento a través del cual se hace referencia:
-        1. El Contrato Marco;
-        2. Los Términos y Condiciones Generales;
-        3. el cuerpo de los Términos y Condiciones Generales, respectivamente, el Contrato Marco, o, en su caso, cualquier cambio legalmente válido realizado en los mismos, dicho cambio prevalecerá entonces sobre las disposiciones en conflicto en el cuerpo de los Términos y Condiciones Generales, respectivamente, el Contrato Marco;
-        4. los Anexos respectivamente los apéndices, por lo que un Anexo / apéndice con una letra alfabética anterior prevalecerá sobre cualquier Anexo / apéndice con una letra alfabética posterior (A prevalecerá sobre B, B prevalecerá sobre C, etc.), a menos que el Anexo / apéndice con la letra alfabética posterior establece expresamente que tiene prioridad sobre el término inconsistente o conflictivo en el Anexo / apéndice con una letra alfabética anterior;
-        5. los considerandos del Acuerdo Marco;
-    3. la redacción de los Términos y Condiciones Generales y del Contrato Marco será determinante en la interpretación de los derechos y obligaciones mutuos de las Partes en virtud del Contrato Marco.
-    4. En estos Términos y Condiciones Generales, los siguientes términos tendrán el siguiente significado:
-        1- Anexo: documento adjunto a estos Términos y Condiciones Generales, que se incorpora al presente por referencia;
-        2. Datatrics: la sociedad privada de responsabilidad limitada constituida conforme a las leyes de los Países Bajos (“besloten vennootschap”) Datatrics B.V., registrada en la Cámara de Comercio (“Kamer van Koophandel”) con el número 60772824;
-        3. Plataforma: la Plataforma basada en la web que Datatrics pone a disposición del Cliente a través del Sitio web para proporcionar el Servicio;
-        4. Fuerza mayor: significa un evento o circunstancia más allá del control razonable de una Parte, incluidas catástrofes naturales, actos gubernamentales, guerra, terrorismo, interrupciones o fallas de Internet, fallas de redes, equipos o hardware de terceros.
-        5. Derechos de propiedad intelectual: todos y cada uno de los derechos de propiedad intelectual y derechos relacionados, incluidos, entre otros, derechos de autor, derechos de bases de datos, derechos de diseño, nombres de dominio, conocimientos técnicos, patentes, marcas registradas, derechos de nombres comerciales, secretos comerciales;
-        6. Contrato Marco: el Contrato Marco de acceso y uso del Servicio, incluidos sus anexos;
-        7. Desempeño: cumplimiento de un compromiso bajo el Contrato Marco;
-        8. Servicio: El servicio proporcionado por Datatrics al proporcionar al Cliente acceso a la Plataforma por medio del cual el Cliente puede reunir datos de varias fuentes internas y externas en un entorno central, con el fin de centralizar las fuentes de datos internas y externas, para crear perfiles de clientes únicos, para predecir las necesidades de los clientes por medio de algoritmos y aprendizaje automático, para crear viajes de clientes relevantes y personalizados, para proporcionar contenido dinámico automatizado a través de diferentes plataformas y/o para avanzar en las conversiones en línea por medio de contenido personalizado más relevante;
-        9. Términos y Condiciones Generales: estos términos y condiciones generales;
-        10. Sitio web: el sitio web puesto a disposición por Datatrics a través de la URL https://www.datatrics.com/ y todas las páginas subyacentes;
+1. In the General Terms and Conditions and the Master Agreement:
+    1. reference to any statute includes a reference to that statute as amended, extended or re-enacted and to any regulation, order, instrument or subordinate legislation under the relevant statute;
+    2. reference to any recital, clause, paragraph or schedule is to a recital, clause, paragraph or schedule (as the case may be) of or to these General Terms and Conditions;
+    3. reference to the singular includes a reference to the plural and vice versa;
+    4. reference to “or” is not exclusive and “include” and “including” shall not be construed or read to be limiting;
+    5. reference to “hereby”, “herein”, “hereof”, “hereunder” and any like words refer to the General Terms and Conditions, except where on the basis of the context another meaning can be the only reasonable interpretation;
+    6. reference to a law or regulation includes any amendment or modification to such law or regulation and any further rules issued thereunder or any law or regulation in replacement therefor;
+    7. reference to any gender includes a reference to all other genders;
+    8.  references to a natural person or legal entity includes its successors or assigns, to the extent permitted under the Master Agreement and/or General Terms and Conditions;
+    9. any rights of either Party may be exercised at any time and from time to time unless specified otherwise in the Master Agreement and/or General Terms and Conditions;
+    10. reference to “written/in writing” in this Master Agreement also refers to email communication, provided the identity of the sender and the integrity of the contents is adequately established;
+    11. reference to an article in the General Terms and Conditions or the Master Agreement shall be a reference to such section of the body of the General Terms and Conditions respectively the Master Agreement, and not to any attachment or other document, unless where explicitly provided otherwise; and
+    12. specific references in (the body of) the General Terms and Conditions or the Master Agreement to other parts of the Master Agreement shall be without prejudice to the full general applicability of any unreferenced provision or part thereof.
+2. In the General Terms and Conditions and the Master Agreement:
+    1. the headings of articles, sections, portions or paragraphs of the General Terms and Conditions and the Master Agreement are for ease of reference only and shall not affect the interpretation of the respective rights and obligations of the Parties and shall not form any part of the General Terms and Conditions and the Master Agreement for the purposes of construction;
+    2. in the event of any inconsistency or conflict between the various parts of the General Terms and Conditions and/or the Master Agreement, the following order shall apply, whereby any document mentioned in an earlier category shall prevail over any document mentioned in a later category hereunder, and not listed itself in any category hereunder, shall have the same rank and be as binding as the document through which it is referred:
+        1. The Master Agreement;
+        2. The General Terms and Conditions;
+        3. the body of the General Terms and Conditions respectively the Master Agreement, or where appropriate, any legally valid change made thereto, which change shall then prevail over conflicting provisions in the body of the General Terms and Conditions respectively Master Agreement;
+        4. the Annexes respectively the appendices, whereby an Annex / appendix with an earlier alphabetical letter shall prevail over any Annexes / appendices with a later alphabetical letter (A will prevail over B, B will prevail over C, etc.), unless the Annex / appendix with the later alphabetical letter expressly states it takes precedence over the inconsistent or conflicting term in the Annex / appendix with an earlier alphabetical letter;
+        5. the recitals to the Master Agreement;
+    3. the wording of the General Terms and Conditions and the Master Agreement shall be decisive in interpreting the mutual rights and obligations of the Parties under the Master Agreement.
+    4. In these General Terms and Conditions, the following terms shall have the following meaning:
+        1- Annex: an attached document to these General Terms and Conditions, that is hereby incorporated by reference;
+        2. Datatrics: the private limited liability company incorporated under the laws of The Netherlands (“besloten vennootschap”) Datatrics B.V., registered at the Chamber of Commerce (“Kamer van Koophandel”) under number 60772824;
+        3. Platform: The web based Platform made available by Datatrics through the Website to the Customer to provide the Service;
+        4. Force Majeure: means an event or circumstance beyond the reasonable control of a Party, including natural catastrophes, governmental acts, war, terrorism, interruptions or failure of the Internet, failures of third-party networks, equipment or hardware
+        5. Intellectual Property Rights: any and all intellectual property rights and related rights, including but not limited to copyrights, database rights, design rights, domain names, know how, patents, trademarks, trade name rights, trade secrets;
+        6. Master Agreement: the Master Agreement for access to and use of the Service, including its appendixes;
+        7. Performance: fulfilling a commitment under the Master Agreement;
+        8. Service: The service provided by Datatrics by providing the Customer access to the Platform by means of which the Customer can bring data from various internal and external sources together in one central environment, in order to centralize internal and external data sources, to create unique customer profiles, to predict customer needs by means of algorithms and machine learning, to create relevant and personalized customer journeys, to provide automated dynamic content through different platforms and/or to advance online conversions by means of more relevant, personalised content;
+        9. General Terms and Conditions: these general terms and conditions;
+        10. Website: the website made available by Datatrics through the URL https://www.datatrics.com/ and all underlying pages;

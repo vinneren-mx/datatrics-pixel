@@ -1,4 +1,4 @@
-import { Item, Product} from '../typings/events'
+import { Item, Product } from '../typings/events'
 
 export function getProductPrice(product: Product) {
   let price
@@ -23,7 +23,10 @@ export function getViewIdentificator(selectedSku: Item, selected: string) {
   let dssku = selectedSku.itemId
   if (selected === 'referenceId') {
     try {
-      dssku = selectedSku.referenceId[0].Value !== undefined ? selectedSku.referenceId[0].Value : selectedSku.itemId
+      dssku =
+        selectedSku.referenceId[0].Value !== undefined
+          ? selectedSku.referenceId[0].Value
+          : selectedSku.itemId
     } catch {
       dssku = selectedSku.itemId
     }
@@ -35,5 +38,4 @@ export function getViewIdentificator(selectedSku: Item, selected: string) {
     }
   }
   return dssku
-
 }
